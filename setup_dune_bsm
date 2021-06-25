@@ -1,0 +1,6 @@
+#!/bin/bash
+
+echo "setup_dune_bsm v0.1"
+echo "Hello, world!"
+
+exit 0
