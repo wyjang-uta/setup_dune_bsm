@@ -1,6 +1,41 @@
 #!/bin/bash
 
 echo "setup_dune_bsm v0.1"
-echo "Hello, world!"
+
+source $(dirname "$0")/ldm.sh
+source $(dirname "$0")/sterile.sh
+source $(dirname "$0")/trident.sh
+source $(dirname "$0")/hnl.sh
+source $(dirname "$0")/nsi.sh
+source $(dirname "$0")/nutau.sh
+
+if [ "$1" == "" ]
+then
+  echo "[ERROR] Specify which environment you want to configure"
+  exit 1
+fi
+
+if [ "$1" == "ldm" ]
+then
+  ldm
+elif [ "$1" == "sterile" ]
+then
+  sterile
+elif [ "$1" == "trident" ]
+then
+  trident
+elif [ "$1" == "hnl" ]
+then
+  hnl
+elif [ "$1" == "nsi" ]
+then
+  nsi
+elif [ "$1" == "nutau" ]
+then
+  nutau
+else
+  echo "[ERROR] Can't find $1 in the valid argument list"
+  exit 2
+fi
 
 exit 0
