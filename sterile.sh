@@ -1,3 +1,1 @@
-function sterile {
-  echo "Enabling Sterile Neutrino environment ..."
-}
+echo "Enabling Sterile Neutrino environment ..."

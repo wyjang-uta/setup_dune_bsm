@@ -1,13 +1,6 @@
 #!/bin/bash
-
+set -o allexport
 echo "setup_dune_bsm v0.1"
-
-source $(dirname "$0")/ldm.sh
-source $(dirname "$0")/sterile.sh
-source $(dirname "$0")/trident.sh
-source $(dirname "$0")/hnl.sh
-source $(dirname "$0")/nsi.sh
-source $(dirname "$0")/nutau.sh
 
 if [ "$1" == "" ]
 then
@@ -17,25 +10,23 @@ fi
 
 if [ "$1" == "ldm" ]
 then
-  ldm
+  source ldm.sh
 elif [ "$1" == "sterile" ]
 then
-  sterile
+  source sterile.sh
 elif [ "$1" == "trident" ]
 then
-  trident
+  source trident.sh
 elif [ "$1" == "hnl" ]
 then
-  hnl
+  source hnl.sh
 elif [ "$1" == "nsi" ]
 then
-  nsi
+  source nsi.sh
 elif [ "$1" == "nutau" ]
 then
-  nutau
+  source nutau.sh
 else
   echo "[ERROR] Can't find $1 in the valid argument list"
-  exit 2
 fi
-
-exit 0
+set +o allexport

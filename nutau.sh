@@ -1,3 +1,1 @@
-function nutau {
-  echo "Enabling Nutau environment ..."
-}
+echo "Enabling Nutau environment ..."

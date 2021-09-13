@@ -1,3 +1,1 @@
-function hnl {
-  echo "Enabling Heavy Neutral Lepton environment ..."
-}
+echo "Enabling Heavy Neutral Lepton environment ..."

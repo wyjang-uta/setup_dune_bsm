@@ -1,3 +1,1 @@
-function trident {
-  echo "Enabling Neutrino Trident environment ..."
-}
+echo "Enabling Neutrino Trident environment ..."

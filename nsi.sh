@@ -1,3 +1,1 @@
-function nsi {
-  echo "Enabling Non-standard Interaction environment ..."
-}
+echo "Enabling Non-standard Interaction environment ..."
