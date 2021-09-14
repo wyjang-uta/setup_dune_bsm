@@ -1,0 +1,2975 @@
+<?xml version="1.0" encoding="ASCII"?>
+<gdml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://service-spi.web.cern.ch/service-spi/app/releases/GDML/schema/gdml.xsd">
+  <define>
+    <rotation name="ArgonCubeServiceL_rot" unit="degree" x="0.0" y="0.0" z="0.0"/>
+    <position name="ArgonCubeServiceLvolLArService0_pos" unit="cm" x="0.0" y="-10.0" z="0.0"/>
+    <position name="ArgonCubeServiceLvolAirService0_pos" unit="cm" x="0.0" y="165.51" z="0.0"/>
+    <rotation name="LArBotWall_rot" unit="degree" x="0.0" y="0.0" z="0.0"/>
+    <position name="LArBotWallvolLArBot_pos" unit="cm" x="0" y="0.25" z="0"/>
+    <rotation name="LArBotModule_rot1" unit="degree" x="0" y="0" z="0"/>
+    <position name="LArBotModule_el0_0_pos" unit="cm" x="-306.3" y="0.0" z="-203.64"/>
+    <position name="LArBotModule_el1_0_pos" unit="cm" x="-204.2" y="0.0" z="-203.64"/>
+    <position name="LArBotModule_el2_0_pos" unit="cm" x="-102.1" y="0.0" z="-203.64"/>
+    <position name="LArBotModule_el3_0_pos" unit="cm" x="0.0" y="0.0" z="-203.64"/>
+    <position name="LArBotModule_el4_0_pos" unit="cm" x="102.1" y="0.0" z="-203.64"/>
+    <position name="LArBotModule_el5_0_pos" unit="cm" x="204.2" y="0.0" z="-203.64"/>
+    <position name="LArBotModule_el6_0_pos" unit="cm" x="306.3" y="0.0" z="-203.64"/>
+    <position name="LArBotModule_el0_1_pos" unit="cm" x="-306.3" y="0.0" z="-101.82"/>
+    <position name="LArBotModule_el1_1_pos" unit="cm" x="-204.2" y="0.0" z="-101.82"/>
+    <position name="LArBotModule_el2_1_pos" unit="cm" x="-102.1" y="0.0" z="-101.82"/>
+    <position name="LArBotModule_el3_1_pos" unit="cm" x="0.0" y="0.0" z="-101.82"/>
+    <position name="LArBotModule_el4_1_pos" unit="cm" x="102.1" y="0.0" z="-101.82"/>
+    <position name="LArBotModule_el5_1_pos" unit="cm" x="204.2" y="0.0" z="-101.82"/>
+    <position name="LArBotModule_el6_1_pos" unit="cm" x="306.3" y="0.0" z="-101.82"/>
+    <position name="LArBotModule_el0_2_pos" unit="cm" x="-306.3" y="0.0" z="0.0"/>
+    <position name="LArBotModule_el1_2_pos" unit="cm" x="-204.2" y="0.0" z="0.0"/>
+    <position name="LArBotModule_el2_2_pos" unit="cm" x="-102.1" y="0.0" z="0.0"/>
+    <position name="LArBotModule_el3_2_pos" unit="cm" x="0.0" y="0.0" z="0.0"/>
+    <position name="LArBotModule_el4_2_pos" unit="cm" x="102.1" y="0.0" z="0.0"/>
+    <position name="LArBotModule_el5_2_pos" unit="cm" x="204.2" y="0.0" z="0.0"/>
+    <position name="LArBotModule_el6_2_pos" unit="cm" x="306.3" y="0.0" z="0.0"/>
+    <position name="LArBotModule_el0_3_pos" unit="cm" x="-306.3" y="0.0" z="101.82"/>
+    <position name="LArBotModule_el1_3_pos" unit="cm" x="-204.2" y="0.0" z="101.82"/>
+    <position name="LArBotModule_el2_3_pos" unit="cm" x="-102.1" y="0.0" z="101.82"/>
+    <position name="LArBotModule_el3_3_pos" unit="cm" x="0.0" y="0.0" z="101.82"/>
+    <position name="LArBotModule_el4_3_pos" unit="cm" x="102.1" y="0.0" z="101.82"/>
+    <position name="LArBotModule_el5_3_pos" unit="cm" x="204.2" y="0.0" z="101.82"/>
+    <position name="LArBotModule_el6_3_pos" unit="cm" x="306.3" y="0.0" z="101.82"/>
+    <position name="LArBotModule_el0_4_pos" unit="cm" x="-306.3" y="0.0" z="203.64"/>
+    <position name="LArBotModule_el1_4_pos" unit="cm" x="-204.2" y="0.0" z="203.64"/>
+    <position name="LArBotModule_el2_4_pos" unit="cm" x="-102.1" y="0.0" z="203.64"/>
+    <position name="LArBotModule_el3_4_pos" unit="cm" x="0.0" y="0.0" z="203.64"/>
+    <position name="LArBotModule_el4_4_pos" unit="cm" x="102.1" y="0.0" z="203.64"/>
+    <position name="LArBotModule_el5_4_pos" unit="cm" x="204.2" y="0.0" z="203.64"/>
+    <position name="LArBotModule_el6_4_pos" unit="cm" x="306.3" y="0.0" z="203.64"/>
+    <rotation name="LArLight_rot" unit="degree" x="0.0" y="0.0" z="0.0"/>
+    <position name="LArLightvolLArActive0_pos" unit="cm" x="0.0" y="0.0" z="-0.4"/>
+    <position name="LArLightvolLightUsPlane0_pos" unit="cm" x="0.0" y="0.0" z="49.8"/>
+    <position name="LArLightvolLightDsPlane0_pos" unit="cm" x="0.0" y="0.0" z="50.2"/>
+    <rotation name="ResistiveFieldTop_rot" unit="degree" x="0.0" y="0.0" z="0.0"/>
+    <position name="ResistiveFieldTopvolResistiveWireTop0_pos" unit="cm" x="-24.5" y="0.0" z="0.0"/>
+    <position name="ResistiveFieldTopvolResistiveWireTop1_pos" unit="cm" x="-23.0" y="0.0" z="0.0"/>
+    <position name="ResistiveFieldTopvolResistiveWireTop2_pos" unit="cm" x="-21.5" y="0.0" z="0.0"/>
+    <position name="ResistiveFieldTopvolResistiveWireTop3_pos" unit="cm" x="-20.0" y="0.0" z="0.0"/>
+    <position name="ResistiveFieldTopvolResistiveWireTop4_pos" unit="cm" x="-18.5" y="0.0" z="0.0"/>
+    <position name="ResistiveFieldTopvolResistiveWireTop5_pos" unit="cm" x="-17.0" y="0.0" z="0.0"/>
+    <position name="ResistiveFieldTopvolResistiveWireTop6_pos" unit="cm" x="-15.5" y="0.0" z="0.0"/>
+    <position name="ResistiveFieldTopvolResistiveWireTop7_pos" unit="cm" x="-14.0" y="0.0" z="0.0"/>
+    <position name="ResistiveFieldTopvolResistiveWireTop8_pos" unit="cm" x="-12.5" y="0.0" z="0.0"/>
+    <position name="ResistiveFieldTopvolResistiveWireTop9_pos" unit="cm" x="-11.0" y="0.0" z="0.0"/>
+    <position name="ResistiveFieldTopvolResistiveWireTop10_pos" unit="cm" x="-9.5" y="0.0" z="0.0"/>
+    <position name="ResistiveFieldTopvolResistiveWireTop11_pos" unit="cm" x="-8.0" y="0.0" z="0.0"/>
+    <position name="ResistiveFieldTopvolResistiveWireTop12_pos" unit="cm" x="-6.5" y="0.0" z="0.0"/>
+    <position name="ResistiveFieldTopvolResistiveWireTop13_pos" unit="cm" x="-5.0" y="0.0" z="0.0"/>
+    <position name="ResistiveFieldTopvolResistiveWireTop14_pos" unit="cm" x="-3.5" y="0.0" z="0.0"/>
+    <position name="ResistiveFieldTopvolResistiveWireTop15_pos" unit="cm" x="-2.0" y="0.0" z="0.0"/>
+    <position name="ResistiveFieldTopvolResistiveWireTop16_pos" unit="cm" x="-0.5" y="0.0" z="0.0"/>
+    <position name="ResistiveFieldTopvolResistiveWireTop17_pos" unit="cm" x="1.0" y="0.0" z="0.0"/>
+    <position name="ResistiveFieldTopvolResistiveWireTop18_pos" unit="cm" x="2.5" y="0.0" z="0.0"/>
+    <position name="ResistiveFieldTopvolResistiveWireTop19_pos" unit="cm" x="4.0" y="0.0" z="0.0"/>
+    <position name="ResistiveFieldTopvolResistiveWireTop20_pos" unit="cm" x="5.5" y="0.0" z="0.0"/>
+    <position name="ResistiveFieldTopvolResistiveWireTop21_pos" unit="cm" x="7.0" y="0.0" z="0.0"/>
+    <position name="ResistiveFieldTopvolResistiveWireTop22_pos" unit="cm" x="8.5" y="0.0" z="0.0"/>
+    <position name="ResistiveFieldTopvolResistiveWireTop23_pos" unit="cm" x="10.0" y="0.0" z="0.0"/>
+    <position name="ResistiveFieldTopvolResistiveWireTop24_pos" unit="cm" x="11.5" y="0.0" z="0.0"/>
+    <position name="ResistiveFieldTopvolResistiveWireTop25_pos" unit="cm" x="13.0" y="0.0" z="0.0"/>
+    <position name="ResistiveFieldTopvolResistiveWireTop26_pos" unit="cm" x="14.5" y="0.0" z="0.0"/>
+    <position name="ResistiveFieldTopvolResistiveWireTop27_pos" unit="cm" x="16.0" y="0.0" z="0.0"/>
+    <position name="ResistiveFieldTopvolResistiveWireTop28_pos" unit="cm" x="17.5" y="0.0" z="0.0"/>
+    <position name="ResistiveFieldTopvolResistiveWireTop29_pos" unit="cm" x="19.0" y="0.0" z="0.0"/>
+    <position name="ResistiveFieldTopvolResistiveWireTop30_pos" unit="cm" x="20.5" y="0.0" z="0.0"/>
+    <position name="ResistiveFieldTopvolResistiveWireTop31_pos" unit="cm" x="22.0" y="0.0" z="0.0"/>
+    <position name="ResistiveFieldTopvolResistiveWireTop32_pos" unit="cm" x="23.5" y="0.0" z="0.0"/>
+    <rotation name="ResistiveFieldSide_rot" unit="degree" x="0.0" y="0.0" z="0.0"/>
+    <position name="ResistiveFieldSidevolResistiveWireSide0_pos" unit="cm" x="-24.5" y="0.0" z="0.0"/>
+    <position name="ResistiveFieldSidevolResistiveWireSide1_pos" unit="cm" x="-23.0" y="0.0" z="0.0"/>
+    <position name="ResistiveFieldSidevolResistiveWireSide2_pos" unit="cm" x="-21.5" y="0.0" z="0.0"/>
+    <position name="ResistiveFieldSidevolResistiveWireSide3_pos" unit="cm" x="-20.0" y="0.0" z="0.0"/>
+    <position name="ResistiveFieldSidevolResistiveWireSide4_pos" unit="cm" x="-18.5" y="0.0" z="0.0"/>
+    <position name="ResistiveFieldSidevolResistiveWireSide5_pos" unit="cm" x="-17.0" y="0.0" z="0.0"/>
+    <position name="ResistiveFieldSidevolResistiveWireSide6_pos" unit="cm" x="-15.5" y="0.0" z="0.0"/>
+    <position name="ResistiveFieldSidevolResistiveWireSide7_pos" unit="cm" x="-14.0" y="0.0" z="0.0"/>
+    <position name="ResistiveFieldSidevolResistiveWireSide8_pos" unit="cm" x="-12.5" y="0.0" z="0.0"/>
+    <position name="ResistiveFieldSidevolResistiveWireSide9_pos" unit="cm" x="-11.0" y="0.0" z="0.0"/>
+    <position name="ResistiveFieldSidevolResistiveWireSide10_pos" unit="cm" x="-9.5" y="0.0" z="0.0"/>
+    <position name="ResistiveFieldSidevolResistiveWireSide11_pos" unit="cm" x="-8.0" y="0.0" z="0.0"/>
+    <position name="ResistiveFieldSidevolResistiveWireSide12_pos" unit="cm" x="-6.5" y="0.0" z="0.0"/>
+    <position name="ResistiveFieldSidevolResistiveWireSide13_pos" unit="cm" x="-5.0" y="0.0" z="0.0"/>
+    <position name="ResistiveFieldSidevolResistiveWireSide14_pos" unit="cm" x="-3.5" y="0.0" z="0.0"/>
+    <position name="ResistiveFieldSidevolResistiveWireSide15_pos" unit="cm" x="-2.0" y="0.0" z="0.0"/>
+    <position name="ResistiveFieldSidevolResistiveWireSide16_pos" unit="cm" x="-0.5" y="0.0" z="0.0"/>
+    <position name="ResistiveFieldSidevolResistiveWireSide17_pos" unit="cm" x="1.0" y="0.0" z="0.0"/>
+    <position name="ResistiveFieldSidevolResistiveWireSide18_pos" unit="cm" x="2.5" y="0.0" z="0.0"/>
+    <position name="ResistiveFieldSidevolResistiveWireSide19_pos" unit="cm" x="4.0" y="0.0" z="0.0"/>
+    <position name="ResistiveFieldSidevolResistiveWireSide20_pos" unit="cm" x="5.5" y="0.0" z="0.0"/>
+    <position name="ResistiveFieldSidevolResistiveWireSide21_pos" unit="cm" x="7.0" y="0.0" z="0.0"/>
+    <position name="ResistiveFieldSidevolResistiveWireSide22_pos" unit="cm" x="8.5" y="0.0" z="0.0"/>
+    <position name="ResistiveFieldSidevolResistiveWireSide23_pos" unit="cm" x="10.0" y="0.0" z="0.0"/>
+    <position name="ResistiveFieldSidevolResistiveWireSide24_pos" unit="cm" x="11.5" y="0.0" z="0.0"/>
+    <position name="ResistiveFieldSidevolResistiveWireSide25_pos" unit="cm" x="13.0" y="0.0" z="0.0"/>
+    <position name="ResistiveFieldSidevolResistiveWireSide26_pos" unit="cm" x="14.5" y="0.0" z="0.0"/>
+    <position name="ResistiveFieldSidevolResistiveWireSide27_pos" unit="cm" x="16.0" y="0.0" z="0.0"/>
+    <position name="ResistiveFieldSidevolResistiveWireSide28_pos" unit="cm" x="17.5" y="0.0" z="0.0"/>
+    <position name="ResistiveFieldSidevolResistiveWireSide29_pos" unit="cm" x="19.0" y="0.0" z="0.0"/>
+    <position name="ResistiveFieldSidevolResistiveWireSide30_pos" unit="cm" x="20.5" y="0.0" z="0.0"/>
+    <position name="ResistiveFieldSidevolResistiveWireSide31_pos" unit="cm" x="22.0" y="0.0" z="0.0"/>
+    <position name="ResistiveFieldSidevolResistiveWireSide32_pos" unit="cm" x="23.5" y="0.0" z="0.0"/>
+    <position name="volLArSubModuleLeftvolLArLight_pos" unit="cm" x="0.0" y="0.0" z="0.0"/>
+    <rotation name="LArSubModuleLeft_rotTop" unit="degree" x="0" y="0" z="0"/>
+    <rotation name="LArSubModuleLeft_rotBottom" unit="degree" x="0" y="0" z="180"/>
+    <rotation name="LArSubModuleLeft_rotLeft" unit="degree" x="0" y="0" z="0"/>
+    <rotation name="LArSubModuleLeft_rotRight" unit="degree" x="0" y="0" z="0"/>
+    <position name="volLArSubModuleLeftvolResistiveFieldTop_top_pos" unit="cm" x="0.0" y="150.005" z="0.0"/>
+    <position name="volLArSubModuleLeftvolResistiveFieldSide_left_pos" unit="cm" x="0.0" y="0.0" z="50.405"/>
+    <position name="volLArSubModuleLeftvolResistiveFieldTop_bottom_pos" unit="cm" x="0.0" y="-150.005" z="0.0"/>
+    <position name="volLArSubModuleLeftvolResistiveFieldSide_right_pos" unit="cm" x="0.0" y="0.0" z="-50.405"/>
+    <position name="volLArSubModuleRightvolLArLight_pos" unit="cm" x="0.0" y="0.0" z="0.0"/>
+    <rotation name="LArSubModuleRight_rotTop" unit="degree" x="0" y="0" z="0"/>
+    <rotation name="LArSubModuleRight_rotBottom" unit="degree" x="0" y="0" z="0"/>
+    <rotation name="LArSubModuleRight_rotLeft" unit="degree" x="0" y="0" z="0"/>
+    <rotation name="LArSubModuleRight_rotRight" unit="degree" x="0" y="0" z="0"/>
+    <position name="volLArSubModuleRightvolResistiveFieldTop_top_pos" unit="cm" x="0.0" y="150.005" z="0.0"/>
+    <position name="volLArSubModuleRightvolResistiveFieldSide_left_pos" unit="cm" x="0.0" y="0.0" z="50.405"/>
+    <position name="volLArSubModuleRightvolResistiveFieldTop_bottom_pos" unit="cm" x="0.0" y="-150.005" z="0.0"/>
+    <position name="volLArSubModuleRightvolResistiveFieldSide_right_pos" unit="cm" x="0.0" y="0.0" z="-50.405"/>
+    <rotation name="LArActiveMod_rot" unit="degree" x="0.0" y="0.0" z="0.0"/>
+    <position name="LArActiveModvolPixelPlaneL0_pos" unit="cm" x="-50.4" y="0.0" z="0.0"/>
+    <position name="LArActiveModvolLArSubModuleLeft0_pos" unit="cm" x="-25.25" y="0.0" z="0.0"/>
+    <position name="LArActiveModvolLArCathode0_pos" unit="cm" x="0.0" y="0.0" z="0.0"/>
+    <position name="LArActiveModvolLArSubModuleRight0_pos" unit="cm" x="25.25" y="0.0" z="0.0"/>
+    <position name="LArActiveModvolPixelPlaneR0_pos" unit="cm" x="50.4" y="0.0" z="0.0"/>
+    <position name="volLArActiveMod_pos" unit="cm" x="0.0" y="0.0" z="0.0"/>
+    <rotation name="volLArActiveMod_rot" unit="degree" x="0" y="0" z="0"/>
+    <rotation name="ArgonCubeActive_rot1" unit="degree" x="0" y="0" z="0"/>
+    <position name="ArgonCubeActive_el0_0_pos" unit="cm" x="-306.3" y="0.0" z="-203.64"/>
+    <position name="ArgonCubeActive_el1_0_pos" unit="cm" x="-204.2" y="0.0" z="-203.64"/>
+    <position name="ArgonCubeActive_el2_0_pos" unit="cm" x="-102.1" y="0.0" z="-203.64"/>
+    <position name="ArgonCubeActive_el3_0_pos" unit="cm" x="0.0" y="0.0" z="-203.64"/>
+    <position name="ArgonCubeActive_el4_0_pos" unit="cm" x="102.1" y="0.0" z="-203.64"/>
+    <position name="ArgonCubeActive_el5_0_pos" unit="cm" x="204.2" y="0.0" z="-203.64"/>
+    <position name="ArgonCubeActive_el6_0_pos" unit="cm" x="306.3" y="0.0" z="-203.64"/>
+    <position name="ArgonCubeActive_el0_1_pos" unit="cm" x="-306.3" y="0.0" z="-101.82"/>
+    <position name="ArgonCubeActive_el1_1_pos" unit="cm" x="-204.2" y="0.0" z="-101.82"/>
+    <position name="ArgonCubeActive_el2_1_pos" unit="cm" x="-102.1" y="0.0" z="-101.82"/>
+    <position name="ArgonCubeActive_el3_1_pos" unit="cm" x="0.0" y="0.0" z="-101.82"/>
+    <position name="ArgonCubeActive_el4_1_pos" unit="cm" x="102.1" y="0.0" z="-101.82"/>
+    <position name="ArgonCubeActive_el5_1_pos" unit="cm" x="204.2" y="0.0" z="-101.82"/>
+    <position name="ArgonCubeActive_el6_1_pos" unit="cm" x="306.3" y="0.0" z="-101.82"/>
+    <position name="ArgonCubeActive_el0_2_pos" unit="cm" x="-306.3" y="0.0" z="0.0"/>
+    <position name="ArgonCubeActive_el1_2_pos" unit="cm" x="-204.2" y="0.0" z="0.0"/>
+    <position name="ArgonCubeActive_el2_2_pos" unit="cm" x="-102.1" y="0.0" z="0.0"/>
+    <position name="ArgonCubeActive_el3_2_pos" unit="cm" x="0.0" y="0.0" z="0.0"/>
+    <position name="ArgonCubeActive_el4_2_pos" unit="cm" x="102.1" y="0.0" z="0.0"/>
+    <position name="ArgonCubeActive_el5_2_pos" unit="cm" x="204.2" y="0.0" z="0.0"/>
+    <position name="ArgonCubeActive_el6_2_pos" unit="cm" x="306.3" y="0.0" z="0.0"/>
+    <position name="ArgonCubeActive_el0_3_pos" unit="cm" x="-306.3" y="0.0" z="101.82"/>
+    <position name="ArgonCubeActive_el1_3_pos" unit="cm" x="-204.2" y="0.0" z="101.82"/>
+    <position name="ArgonCubeActive_el2_3_pos" unit="cm" x="-102.1" y="0.0" z="101.82"/>
+    <position name="ArgonCubeActive_el3_3_pos" unit="cm" x="0.0" y="0.0" z="101.82"/>
+    <position name="ArgonCubeActive_el4_3_pos" unit="cm" x="102.1" y="0.0" z="101.82"/>
+    <position name="ArgonCubeActive_el5_3_pos" unit="cm" x="204.2" y="0.0" z="101.82"/>
+    <position name="ArgonCubeActive_el6_3_pos" unit="cm" x="306.3" y="0.0" z="101.82"/>
+    <position name="ArgonCubeActive_el0_4_pos" unit="cm" x="-306.3" y="0.0" z="203.64"/>
+    <position name="ArgonCubeActive_el1_4_pos" unit="cm" x="-204.2" y="0.0" z="203.64"/>
+    <position name="ArgonCubeActive_el2_4_pos" unit="cm" x="-102.1" y="0.0" z="203.64"/>
+    <position name="ArgonCubeActive_el3_4_pos" unit="cm" x="0.0" y="0.0" z="203.64"/>
+    <position name="ArgonCubeActive_el4_4_pos" unit="cm" x="102.1" y="0.0" z="203.64"/>
+    <position name="ArgonCubeActive_el5_4_pos" unit="cm" x="204.2" y="0.0" z="203.64"/>
+    <position name="ArgonCubeActive_el6_4_pos" unit="cm" x="306.3" y="0.0" z="203.64"/>
+    <rotation name="LArTopWall_rot" unit="degree" x="0.0" y="0.0" z="0.0"/>
+    <position name="LArTopWallvolLArTop10_pos" unit="cm" x="0.0" y="-10.0" z="0.0"/>
+    <position name="LArTopWallvolLArTop20_pos" unit="cm" x="0.0" y="10.0" z="0.0"/>
+    <rotation name="LArTopModule_rot1" unit="degree" x="0" y="0" z="0"/>
+    <position name="LArTopModule_el0_0_pos" unit="cm" x="-306.3" y="0.0" z="-203.64"/>
+    <position name="LArTopModule_el1_0_pos" unit="cm" x="-204.2" y="0.0" z="-203.64"/>
+    <position name="LArTopModule_el2_0_pos" unit="cm" x="-102.1" y="0.0" z="-203.64"/>
+    <position name="LArTopModule_el3_0_pos" unit="cm" x="0.0" y="0.0" z="-203.64"/>
+    <position name="LArTopModule_el4_0_pos" unit="cm" x="102.1" y="0.0" z="-203.64"/>
+    <position name="LArTopModule_el5_0_pos" unit="cm" x="204.2" y="0.0" z="-203.64"/>
+    <position name="LArTopModule_el6_0_pos" unit="cm" x="306.3" y="0.0" z="-203.64"/>
+    <position name="LArTopModule_el0_1_pos" unit="cm" x="-306.3" y="0.0" z="-101.82"/>
+    <position name="LArTopModule_el1_1_pos" unit="cm" x="-204.2" y="0.0" z="-101.82"/>
+    <position name="LArTopModule_el2_1_pos" unit="cm" x="-102.1" y="0.0" z="-101.82"/>
+    <position name="LArTopModule_el3_1_pos" unit="cm" x="0.0" y="0.0" z="-101.82"/>
+    <position name="LArTopModule_el4_1_pos" unit="cm" x="102.1" y="0.0" z="-101.82"/>
+    <position name="LArTopModule_el5_1_pos" unit="cm" x="204.2" y="0.0" z="-101.82"/>
+    <position name="LArTopModule_el6_1_pos" unit="cm" x="306.3" y="0.0" z="-101.82"/>
+    <position name="LArTopModule_el0_2_pos" unit="cm" x="-306.3" y="0.0" z="0.0"/>
+    <position name="LArTopModule_el1_2_pos" unit="cm" x="-204.2" y="0.0" z="0.0"/>
+    <position name="LArTopModule_el2_2_pos" unit="cm" x="-102.1" y="0.0" z="0.0"/>
+    <position name="LArTopModule_el3_2_pos" unit="cm" x="0.0" y="0.0" z="0.0"/>
+    <position name="LArTopModule_el4_2_pos" unit="cm" x="102.1" y="0.0" z="0.0"/>
+    <position name="LArTopModule_el5_2_pos" unit="cm" x="204.2" y="0.0" z="0.0"/>
+    <position name="LArTopModule_el6_2_pos" unit="cm" x="306.3" y="0.0" z="0.0"/>
+    <position name="LArTopModule_el0_3_pos" unit="cm" x="-306.3" y="0.0" z="101.82"/>
+    <position name="LArTopModule_el1_3_pos" unit="cm" x="-204.2" y="0.0" z="101.82"/>
+    <position name="LArTopModule_el2_3_pos" unit="cm" x="-102.1" y="0.0" z="101.82"/>
+    <position name="LArTopModule_el3_3_pos" unit="cm" x="0.0" y="0.0" z="101.82"/>
+    <position name="LArTopModule_el4_3_pos" unit="cm" x="102.1" y="0.0" z="101.82"/>
+    <position name="LArTopModule_el5_3_pos" unit="cm" x="204.2" y="0.0" z="101.82"/>
+    <position name="LArTopModule_el6_3_pos" unit="cm" x="306.3" y="0.0" z="101.82"/>
+    <position name="LArTopModule_el0_4_pos" unit="cm" x="-306.3" y="0.0" z="203.64"/>
+    <position name="LArTopModule_el1_4_pos" unit="cm" x="-204.2" y="0.0" z="203.64"/>
+    <position name="LArTopModule_el2_4_pos" unit="cm" x="-102.1" y="0.0" z="203.64"/>
+    <position name="LArTopModule_el3_4_pos" unit="cm" x="0.0" y="0.0" z="203.64"/>
+    <position name="LArTopModule_el4_4_pos" unit="cm" x="102.1" y="0.0" z="203.64"/>
+    <position name="LArTopModule_el5_4_pos" unit="cm" x="204.2" y="0.0" z="203.64"/>
+    <position name="LArTopModule_el6_4_pos" unit="cm" x="306.3" y="0.0" z="203.64"/>
+    <rotation name="ArgonCube_rot" unit="degree" x="0.0" y="0.0" z="0.0"/>
+    <position name="ArgonCubevolLArBotModule0_pos" unit="cm" x="0.0" y="-170.51" z="0.0"/>
+    <position name="ArgonCubevolArgonCubeActive0_pos" unit="cm" x="0.0" y="-14.75" z="0.0"/>
+    <position name="ArgonCubevolLArTopModule0_pos" unit="cm" x="0.0" y="155.76" z="0.0"/>
+    <rotation name="ArgonCubeServiceR_rot" unit="degree" x="0.0" y="0.0" z="0.0"/>
+    <position name="ArgonCubeServiceRvolLArService0_pos" unit="cm" x="0.0" y="-10.0" z="0.0"/>
+    <position name="ArgonCubeServiceRvolAirService0_pos" unit="cm" x="0.0" y="165.51" z="0.0"/>
+    <rotation name="ArgonCubeService_rot" unit="degree" x="0.0" y="0.0" z="0.0"/>
+    <position name="ArgonCubeServicevolArgonCubeServiceL0_pos" unit="cm" x="-382.35" y="0.0" z="0.0"/>
+    <position name="ArgonCubeServicevolArgonCube0_pos" unit="cm" x="0.0" y="0.0" z="0.0"/>
+    <position name="ArgonCubeServicevolArgonCubeServiceR0_pos" unit="cm" x="382.35" y="0.0" z="0.0"/>
+    <rotation name="SSMembrane_rot" unit="degree" x="0.0" y="0.0" z="0.0"/>
+    <position name="SSMembranevolArgonCubeService_pos" unit="cm" x="0.0" y="0.0" z="0.0"/>
+    <rotation name="FireproofBoard_rot" unit="degree" x="0.0" y="0.0" z="0.0"/>
+    <position name="FireproofBoardvolSSMembrane_pos" unit="cm" x="0.0" y="0.5" z="0.0"/>
+    <rotation name="GREBoard1_rot" unit="degree" x="0.0" y="0.0" z="0.0"/>
+    <position name="GREBoard1volFireproofBoard_pos" unit="cm" x="0.0" y="0.025" z="0.0"/>
+    <rotation name="InsulationBoard1_rot" unit="degree" x="0.0" y="0.0" z="0.0"/>
+    <position name="InsulationBoard1volGREBoard1_pos" unit="cm" x="0.0" y="9.5" z="0.0"/>
+    <rotation name="GREBoard2_rot" unit="degree" x="0.0" y="0.0" z="0.0"/>
+    <position name="GREBoard2volInsulationBoard1_pos" unit="cm" x="0.0" y="0.025" z="0.0"/>
+    <rotation name="InsulationBoard2_rot" unit="degree" x="0.0" y="0.0" z="0.0"/>
+    <position name="InsulationBoard2volGREBoard2_pos" unit="cm" x="0.0" y="10.0" z="0.0"/>
+    <rotation name="MoistureBarrier_rot" unit="degree" x="0.0" y="0.0" z="0.0"/>
+    <position name="MoistureBarriervolInsulationBoard2_pos" unit="cm" x="0.0" y="0.06" z="0.0"/>
+    <rotation name="ReinforcedConcrete_rot" unit="degree" x="0.0" y="0.0" z="0.0"/>
+    <position name="ReinforcedConcretevolMoistureBarrier_pos" unit="cm" x="0.0" y="87.5" z="0.0"/>
+    <rotation name="G10AirWindow_rot" unit="degree" x="0.0" y="0.0" z="0.0"/>
+    <position name="G10AirWindowvolG10Window0_pos" unit="cm" x="0.0" y="0.0" z="-10.0"/>
+    <position name="G10AirWindowvolAirWindow0_pos" unit="cm" x="0.0" y="0.0" z="5.0"/>
+    <position name="volG10AirWindow_pos" unit="cm" x="0.0" y="70.97" z="309.97"/>
+    <position name="volReinforcedConcrete_pos" unit="cm" x="0.0" y="0.0" z="0.0"/>
+    <rotation name="CylinderLBox_rot" unit="degree" x="0.0" y="0.0" z="0.0"/>
+    <position name="CylinderLBoxvolCylinder0_pos" unit="cm" x="0" y="-15" z="0"/>
+    <rotation name="CylinderTBox_rot" unit="degree" x="90" y="0" z="0"/>
+    <position name="CylinderTBoxvolCylinderT0_pos" unit="cm" x="0" y="0" z="-15"/>
+    <rotation name="CylinderRBox_rot" unit="degree" x="0.0" y="0.0" z="0.0"/>
+    <position name="CylinderRBoxvolCylinder0_pos" unit="cm" x="0" y="-15" z="0"/>
+    <rotation name="LArTop3_rot" unit="degree" x="0.0" y="0.0" z="0.0"/>
+    <position name="LArTop3volCylinderLBox0_pos" unit="cm" x="-16.05" y="0" z="0.0"/>
+    <position name="LArTop3volCylinderTBox0_pos" unit="cm" x="-1.05" y="0.0" z="0.0"/>
+    <position name="LArTop3volCylinderRBox0_pos" unit="cm" x="13.95" y="0.0" z="0.0"/>
+    <rotation name="LArTopExtraModule_rot1" unit="degree" x="0" y="0" z="0"/>
+    <position name="LArTopExtraModule_el0_0_pos" unit="cm" x="-306.3" y="0.0" z="-203.64"/>
+    <position name="LArTopExtraModule_el1_0_pos" unit="cm" x="-204.2" y="0.0" z="-203.64"/>
+    <position name="LArTopExtraModule_el2_0_pos" unit="cm" x="-102.1" y="0.0" z="-203.64"/>
+    <position name="LArTopExtraModule_el3_0_pos" unit="cm" x="0.0" y="0.0" z="-203.64"/>
+    <position name="LArTopExtraModule_el4_0_pos" unit="cm" x="102.1" y="0.0" z="-203.64"/>
+    <position name="LArTopExtraModule_el5_0_pos" unit="cm" x="204.2" y="0.0" z="-203.64"/>
+    <position name="LArTopExtraModule_el6_0_pos" unit="cm" x="306.3" y="0.0" z="-203.64"/>
+    <position name="LArTopExtraModule_el0_1_pos" unit="cm" x="-306.3" y="0.0" z="-101.82"/>
+    <position name="LArTopExtraModule_el1_1_pos" unit="cm" x="-204.2" y="0.0" z="-101.82"/>
+    <position name="LArTopExtraModule_el2_1_pos" unit="cm" x="-102.1" y="0.0" z="-101.82"/>
+    <position name="LArTopExtraModule_el3_1_pos" unit="cm" x="0.0" y="0.0" z="-101.82"/>
+    <position name="LArTopExtraModule_el4_1_pos" unit="cm" x="102.1" y="0.0" z="-101.82"/>
+    <position name="LArTopExtraModule_el5_1_pos" unit="cm" x="204.2" y="0.0" z="-101.82"/>
+    <position name="LArTopExtraModule_el6_1_pos" unit="cm" x="306.3" y="0.0" z="-101.82"/>
+    <position name="LArTopExtraModule_el0_2_pos" unit="cm" x="-306.3" y="0.0" z="0.0"/>
+    <position name="LArTopExtraModule_el1_2_pos" unit="cm" x="-204.2" y="0.0" z="0.0"/>
+    <position name="LArTopExtraModule_el2_2_pos" unit="cm" x="-102.1" y="0.0" z="0.0"/>
+    <position name="LArTopExtraModule_el3_2_pos" unit="cm" x="0.0" y="0.0" z="0.0"/>
+    <position name="LArTopExtraModule_el4_2_pos" unit="cm" x="102.1" y="0.0" z="0.0"/>
+    <position name="LArTopExtraModule_el5_2_pos" unit="cm" x="204.2" y="0.0" z="0.0"/>
+    <position name="LArTopExtraModule_el6_2_pos" unit="cm" x="306.3" y="0.0" z="0.0"/>
+    <position name="LArTopExtraModule_el0_3_pos" unit="cm" x="-306.3" y="0.0" z="101.82"/>
+    <position name="LArTopExtraModule_el1_3_pos" unit="cm" x="-204.2" y="0.0" z="101.82"/>
+    <position name="LArTopExtraModule_el2_3_pos" unit="cm" x="-102.1" y="0.0" z="101.82"/>
+    <position name="LArTopExtraModule_el3_3_pos" unit="cm" x="0.0" y="0.0" z="101.82"/>
+    <position name="LArTopExtraModule_el4_3_pos" unit="cm" x="102.1" y="0.0" z="101.82"/>
+    <position name="LArTopExtraModule_el5_3_pos" unit="cm" x="204.2" y="0.0" z="101.82"/>
+    <position name="LArTopExtraModule_el6_3_pos" unit="cm" x="306.3" y="0.0" z="101.82"/>
+    <position name="LArTopExtraModule_el0_4_pos" unit="cm" x="-306.3" y="0.0" z="203.64"/>
+    <position name="LArTopExtraModule_el1_4_pos" unit="cm" x="-204.2" y="0.0" z="203.64"/>
+    <position name="LArTopExtraModule_el2_4_pos" unit="cm" x="-102.1" y="0.0" z="203.64"/>
+    <position name="LArTopExtraModule_el3_4_pos" unit="cm" x="0.0" y="0.0" z="203.64"/>
+    <position name="LArTopExtraModule_el4_4_pos" unit="cm" x="102.1" y="0.0" z="203.64"/>
+    <position name="LArTopExtraModule_el5_4_pos" unit="cm" x="204.2" y="0.0" z="203.64"/>
+    <position name="LArTopExtraModule_el6_4_pos" unit="cm" x="306.3" y="0.0" z="203.64"/>
+    <rotation name="ArgonCubeTopExtra_rot" unit="degree" x="0.0" y="0.0" z="0.0"/>
+    <position name="ArgonCubeTopExtravolLArTopExtraModule_pos" unit="cm" x="0.0" y="0.0" z="0.0"/>
+    <rotation name="ArgonCubeDetector_rot" unit="degree" x="0.0" y="0.0" z="0.0"/>
+    <position name="ArgonCubeDetectorvolArgonCubeCryostat0_pos" unit="cm" x="0.0" y="-20.0" z="0.0"/>
+    <position name="ArgonCubeDetectorvolArgonCubeTopExtra0_pos" unit="cm" x="0.0" y="283.47" z="0.0"/>
+    <position name="elevatorBlock2Position" unit="cm" x="0.0" y="0.0" z="-15.24"/>
+    <position name="elevatorBlock3Position" unit="cm" x="0.0" y="0.0" z="238.24"/>
+    <position name="craneRail11Position" unit="cm" x="0.0" y="0.0" z="0.0"/>
+    <position name="craneRailBlock12Position" unit="cm" x="30.4801" y="-35.5599" z="0.0"/>
+    <rotation name="craneRailBlock12Rot" unit="degree" x="0" y="0" z="56.31"/>
+    <position name="craneRailBlock13Position" unit="cm" x="10.16" y="45.8785" z="0.0"/>
+    <position name="craneRail21Position" unit="cm" x="0.0" y="0.0" z="0.0"/>
+    <position name="craneRailBlock22Position" unit="cm" x="30.4801" y="-35.5599" z="0.0"/>
+    <rotation name="craneRailBlock22Rot" unit="degree" x="0" y="0" z="56.31"/>
+    <position name="craneRailBlock23Position" unit="cm" x="10.16" y="45.8785" z="0.0"/>
+    <position name="egressHallwayInnerPosition" unit="cm" x="15.24" y="-15.2415" z="0.0"/>
+    <position name="egressHallwayPosition" unit="cm" x="0.0" y="0.0" z="0.0"/>
+    <position name="egressHallwayDoorPosition" unit="cm" x="-76.2" y="-45.5615" z="335.28"/>
+    <position name="cryoTube1Position" unit="cm" x="-17.78" y="0.0" z="0.0"/>
+    <position name="cryoTube2Position" unit="cm" x="33.02" y="0.0" z="0.0"/>
+    <position name="cryoTube3Position" unit="cm" x="33.02" y="-23.064" z="0.0"/>
+    <position name="cryoTube4Position" unit="cm" x="17.38" y="23.749" z="0.0"/>
+    <position name="cryoTube5Position" unit="cm" x="17.38" y="-23.749" z="0.0"/>
+    <position name="NDHallSpaceAirVol2Position" unit="cm" x="1848.48" y="-230.0" z="1477.5"/>
+    <position name="NDHallSpace3AirVolPosition" unit="cm" x="-2469.0" y="459.5" z="0.0"/>
+    <position name="NDHallAirVolSpace4Position" unit="cm" x="0.0" y="361.662" z="0.0"/>
+    <position name="NDHallAirVolSpace5Position" unit="cm" x="335.28" y="-640.08" z="-975.24"/>
+    <position name="NDHallAirVolSpace6Position" unit="cm" x="-2651.88" y="-30.455" z="-784.26"/>
+    <position name="NDHallAirVolSpace7Position" unit="cm" x="-2758.56" y="137.18" z="-563.23"/>
+    <position name="volArgonCubeDetector_pos" unit="cm" x="1848.4" y="-168.0" z="-294.0"/>
+    <rotation name="volArgonCubeDetector_rot" unit="degree" x="0" y="0" z="0"/>
+    <position name="elevatorBlock_lv_pos" unit="cm" x="-2697.24" y="459.5" z="0.0"/>
+    <rotation name="elevatorBlock_lv_rot" unit="degree" x="0" y="-90" z="0"/>
+    <position name="craneRail1_lv_pos" unit="cm" x="0.0" y="463.72" z="939.68"/>
+    <rotation name="craneRail1_lv_rot" unit="degree" x="0" y="-90" z="0"/>
+    <position name="craneRail2_lv_pos" unit="cm" x="0.0" y="463.72" z="-939.68"/>
+    <rotation name="craneRail2_lv_rot" unit="degree" x="0" y="90" z="0"/>
+    <position name="egressHallway_lv_pos" unit="cm" x="0.0" y="-594.518" z="-868.56"/>
+    <rotation name="egressHallway_lv_rot" unit="degree" x="0" y="-90" z="0"/>
+    <position name="volfullCryoTubeBox_pos" unit="cm" x="5.089" y="-353.667" z="-784.26"/>
+    <rotation name="volfullCryoTubeBox_rot" unit="degree" x="0" y="-90" z="0"/>
+    <position name="rockBoxUpstreamPosition" unit="cm" x="0.0" y="0.0" z="-1477.5"/>
+    <position name="rockBoxSubtPosition" unit="cm" x="0.0" y="1027.0" z="13460.0"/>
+    <position name="rockTubPosition" unit="cm" x="-2179.5" y="139.5" z="11982.5"/>
+    <position name="volDetEnclosure_pos" unit="cm" x="289.5" y="-320.0" z="11982.5"/>
+    <rotation name="volDetEnclosure_rot" unit="degree" x="0" y="0" z="0"/>
+    <rotation name="noRotate" unit="degree" x="0" y="0" z="0"/>
+    <rotation name="r90aboutX" unit="degree" x="90" y="0" z="0"/>
+    <rotation name="rminus90aboutX" unit="degree" x="-90" y="0" z="0"/>
+    <rotation name="r90aboutY" unit="degree" x="0" y="90" z="0"/>
+    <rotation name="r180aboutY" unit="degree" x="0" y="180" z="0"/>
+    <rotation name="r180aboutZ" unit="degree" x="0" y="0" z="180"/>
+    <rotation name="rminus90aboutY" unit="degree" x="0" y="-90" z="0"/>
+    <rotation name="r90aboutZ" unit="degree" x="0" y="0" z="90"/>
+    <rotation name="r90aboutXZ" unit="degree" x="90" y="0" z="90"/>
+    <rotation name="r90aboutYZ" unit="degree" x="0" y="90" z="90"/>
+    <rotation name="r90aboutXminusZ" unit="degree" x="-90" y="0" z="90"/>
+    <rotation name="r90aboutYminusZ" unit="degree" x="0" y="-90" z="90"/>
+    <rotation name="r90aboutX90aboutY" unit="degree" x="90" y="90" z="0"/>
+    <rotation name="r90aboutX180aboutY" unit="degree" x="90" y="180" z="0"/>
+    <position name="rockBox_lv_pos" unit="cm" x="-2137.9" y="420.527" z="-11022.5"/>
+    <rotation name="rockBox_lv_rot" unit="degree" x="0" y="0" z="0"/>
+    <position name="center"/>
+    <rotation name="identity"/>
+  </define>
+  <materials>
+    <element Z="1" formula="H" name="hydrogen">
+      <atom value="1.00791"/>
+    </element>
+    <isotope N="11" Z="5" name="boron11">
+      <atom type="A" value="11.0"/>
+    </isotope>
+    <element name="boron">
+      <fraction n="1.0" ref="boron11"/>
+    </element>
+    <element Z="6" formula="C" name="carbon">
+      <atom value="12.0107"/>
+    </element>
+    <element Z="7" formula="N" name="nitrogen">
+      <atom value="14.0671"/>
+    </element>
+    <element Z="8" formula="O" name="oxygen">
+      <atom value="15.999"/>
+    </element>
+    <element Z="9" formula="F" name="fluorine">
+      <atom value="18.9984"/>
+    </element>
+    <element Z="11" formula="Na" name="sodium">
+      <atom value="22.99"/>
+    </element>
+    <element Z="12" formula="Mg" name="magnesium">
+      <atom value="24.305"/>
+    </element>
+    <element Z="13" formula="Al" name="aluminum">
+      <atom value="26.9815"/>
+    </element>
+    <element Z="14" formula="Si" name="silicon">
+      <atom value="28.0855"/>
+    </element>
+    <element Z="15" formula="P" name="phosphorus">
+      <atom value="30.973"/>
+    </element>
+    <element Z="16" formula="S" name="sulfur">
+      <atom value="32.065"/>
+    </element>
+    <element Z="18" formula="Ar" name="argon">
+      <atom value="39.948"/>
+    </element>
+    <element Z="19" formula="K" name="potassium">
+      <atom value="39.0983"/>
+    </element>
+    <element Z="20" formula="Ca" name="calcium">
+      <atom value="40.078"/>
+    </element>
+    <element Z="22" formula="Ti" name="titanium">
+      <atom value="47.867"/>
+    </element>
+    <element Z="24" formula="Cr" name="chromium">
+      <atom value="51.9961"/>
+    </element>
+    <element Z="25" formula="Mn" name="manganese">
+      <atom value="54.938"/>
+    </element>
+    <element Z="26" formula="Fe" name="iron">
+      <atom value="55.845"/>
+    </element>
+    <element Z="28" formula="Ni" name="nickel">
+      <atom value="58.6934"/>
+    </element>
+    <isotope N="63" Z="29" name="copper63">
+      <atom type="A" value="62.93"/>
+    </isotope>
+    <isotope N="65" Z="29" name="copper65">
+      <atom type="A" value="64.93"/>
+    </isotope>
+    <element name="copper">
+      <fraction n="0.6917" ref="copper63"/>
+      <fraction n="0.3083" ref="copper65"/>
+    </element>
+    <isotope N="64" Z="30" name="zinc64">
+      <atom type="A" value="63.93"/>
+    </isotope>
+    <element name="zinc">
+      <fraction n="1.0" ref="zinc64"/>
+    </element>
+    <element Z="35" formula="Br" name="bromine">
+      <atom value="79.904"/>
+    </element>
+    <element Z="54" formula="Xe" name="xenon">
+      <atom value="131.293"/>
+    </element>
+    <element Z="82" formula="Pb" name="lead">
+      <atom value="207.2"/>
+    </element>
+    <material formula="" name="SiO2">
+      <D value="2.2"/>
+      <composite n="1" ref="silicon"/>
+      <composite n="2" ref="oxygen"/>
+    </material>
+    <material formula="" name="FeO">
+      <D value="5.745"/>
+      <composite n="1" ref="iron"/>
+      <composite n="1" ref="oxygen"/>
+    </material>
+    <material formula="" name="Al2O3">
+      <D value="3.97"/>
+      <composite n="2" ref="aluminum"/>
+      <composite n="3" ref="oxygen"/>
+    </material>
+    <material formula="" name="MgO">
+      <D value="3.58"/>
+      <composite n="1" ref="magnesium"/>
+      <composite n="1" ref="oxygen"/>
+    </material>
+    <material formula="" name="CO2">
+      <D value="1.562"/>
+      <composite n="1" ref="carbon"/>
+      <composite n="2" ref="oxygen"/>
+    </material>
+    <material formula="" name="CaO">
+      <D value="3.35"/>
+      <composite n="1" ref="calcium"/>
+      <composite n="1" ref="oxygen"/>
+    </material>
+    <material formula="" name="Na2O">
+      <D value="2.27"/>
+      <composite n="2" ref="sodium"/>
+      <composite n="1" ref="oxygen"/>
+    </material>
+    <material formula="" name="P2O5">
+      <D value="1.562"/>
+      <composite n="2" ref="phosphorus"/>
+      <composite n="5" ref="oxygen"/>
+    </material>
+    <material formula="" name="TiO2">
+      <D value="4.23"/>
+      <composite n="1" ref="titanium"/>
+      <composite n="2" ref="oxygen"/>
+    </material>
+    <material formula="" name="Fe2O3">
+      <D value="5.24"/>
+      <composite n="2" ref="iron"/>
+      <composite n="3" ref="oxygen"/>
+    </material>
+    <material formula="" name="Rock">
+      <D value="2.82"/>
+      <fraction n="0.5267" ref="SiO2"/>
+      <fraction n="0.1174" ref="FeO"/>
+      <fraction n="0.1025" ref="Al2O3"/>
+      <fraction n="0.0771" ref="oxygen"/>
+      <fraction n="0.0473" ref="MgO"/>
+      <fraction n="0.0422" ref="CO2"/>
+      <fraction n="0.0382" ref="CaO"/>
+      <fraction n="0.024" ref="carbon"/>
+      <fraction n="0.0186" ref="sulfur"/>
+      <fraction n="0.0053" ref="Na2O"/>
+      <fraction n="0.0007" ref="P2O5"/>
+    </material>
+    <material formula="" name="Dirt">
+      <D value="1.7"/>
+      <fraction n="0.438" ref="oxygen"/>
+      <fraction n="0.257" ref="silicon"/>
+      <fraction n="0.222" ref="sodium"/>
+      <fraction n="0.049" ref="aluminum"/>
+      <fraction n="0.019" ref="iron"/>
+      <fraction n="0.015" ref="potassium"/>
+    </material>
+    <material formula="" name="Air">
+      <D value="0.001225"/>
+      <fraction n="0.781154" ref="nitrogen"/>
+      <fraction n="0.209476" ref="oxygen"/>
+      <fraction n="0.00934" ref="argon"/>
+    </material>
+    <material formula="" name="Air35C">
+      <D value="0.00115"/>
+      <fraction n="0.781154" ref="nitrogen"/>
+      <fraction n="0.209476" ref="oxygen"/>
+      <fraction n="0.00934" ref="argon"/>
+    </material>
+    <material formula="" name="Bakelite">
+      <D value="1.25"/>
+      <fraction n="0.057441" ref="hydrogen"/>
+      <fraction n="0.774591" ref="carbon"/>
+      <fraction n="0.167968" ref="oxygen"/>
+    </material>
+    <material formula="" name="Honeycomb">
+      <D value="0.94"/>
+      <fraction n="0.143711" ref="hydrogen"/>
+      <fraction n="0.856289" ref="carbon"/>
+    </material>
+    <material formula="" name="C3H6">
+      <D value="0.946"/>
+      <composite n="3" ref="carbon"/>
+      <composite n="6" ref="hydrogen"/>
+    </material>
+    <material formula="" name="RadiatorBlend">
+      <D value="0.1586875"/>
+      <fraction n="0.00643297886307" ref="Air"/>
+      <fraction n="0.993567021137" ref="C3H6"/>
+    </material>
+    <material formula="" name="stGas_Xe">
+      <D value="0.00469254464286"/>
+      <fraction n="0.3" ref="CO2"/>
+      <fraction n="0.7" ref="argon"/>
+    </material>
+    <material formula="" name="stGas_Xe19">
+      <D value="0.00891583482143"/>
+      <fraction n="0.3" ref="CO2"/>
+      <fraction n="0.7" ref="argon"/>
+    </material>
+    <material formula="" name="Water">
+      <D value="1.0"/>
+      <composite n="1" ref="oxygen"/>
+      <composite n="2" ref="hydrogen"/>
+    </material>
+    <material formula="" name="ArgonTarget">
+      <D value="0.2297"/>
+      <composite n="1" ref="argon"/>
+    </material>
+    <material formula="" name="Aluminum">
+      <D value="2.7"/>
+      <composite n="1" ref="aluminum"/>
+    </material>
+    <material formula="" name="Copper">
+      <D value="8.96"/>
+      <composite n="1" ref="copper"/>
+    </material>
+    <material formula="" name="MagnetCoil">
+      <D value="6.94"/>
+      <fraction n="0.964" ref="Copper"/>
+      <fraction n="0.036" ref="Water"/>
+    </material>
+    <material formula="" name="CarbonFiber">
+      <D value="1.6"/>
+      <composite n="1" ref="carbon"/>
+    </material>
+    <material formula="" name="stGas_Ar">
+      <D value="0.00183785714286"/>
+      <fraction n="0.3" ref="CO2"/>
+      <fraction n="0.7" ref="argon"/>
+    </material>
+    <material formula="" name="stGas_Ar19">
+      <D value="0.00349192857143"/>
+      <fraction n="0.3" ref="CO2"/>
+      <fraction n="0.7" ref="argon"/>
+    </material>
+    <material formula="" name="Kapton">
+      <D value="1.4"/>
+      <composite n="22" ref="carbon"/>
+      <composite n="5" ref="oxygen"/>
+      <composite n="2" ref="nitrogen"/>
+    </material>
+    <material formula="" name="Iron">
+      <D value="7.874"/>
+      <composite n="1" ref="iron"/>
+    </material>
+    <material formula="" name="Graphite">
+      <D value="2.23"/>
+      <composite n="1" ref="carbon"/>
+    </material>
+    <material formula="" name="Calcium">
+      <D value="1.55"/>
+      <composite n="1" ref="calcium"/>
+    </material>
+    <material formula="" name="Steel">
+      <D value="7.93"/>
+      <fraction n="0.7298" ref="iron"/>
+      <fraction n="0.1792" ref="chromium"/>
+      <fraction n="0.09" ref="nickel"/>
+      <fraction n="0.001" ref="carbon"/>
+    </material>
+    <material formula="" name="polycarbonate">
+      <D value="1.2"/>
+      <composite n="16" ref="carbon"/>
+      <composite n="6" ref="hydrogen"/>
+      <composite n="3" ref="oxygen"/>
+    </material>
+    <material formula="" name="sttFrameMix">
+      <D value="0.235"/>
+      <fraction n="0.764705882353" ref="carbon"/>
+      <fraction n="0.235294117647" ref="polycarbonate"/>
+    </material>
+    <material formula="" name="fibrous_glass">
+      <D value="1.0"/>
+      <fraction n="0.6" ref="SiO2"/>
+      <fraction n="0.224" ref="CaO"/>
+      <fraction n="0.118" ref="Al2O3"/>
+      <fraction n="0.034" ref="MgO"/>
+      <fraction n="0.013" ref="TiO2"/>
+      <fraction n="0.01" ref="Na2O"/>
+      <fraction n="0.001" ref="Fe2O3"/>
+    </material>
+    <material formula="" name="CH2FCF3">
+      <D value="0.00425"/>
+      <composite n="2" ref="carbon"/>
+      <composite n="2" ref="hydrogen"/>
+      <composite n="4" ref="fluorine"/>
+    </material>
+    <material formula="" name="C4H10">
+      <D value="0.00251"/>
+      <composite n="4" ref="carbon"/>
+      <composite n="10" ref="hydrogen"/>
+    </material>
+    <material formula="" name="SF6">
+      <D value="0.00617"/>
+      <composite n="4" ref="sulfur"/>
+      <composite n="6" ref="fluorine"/>
+    </material>
+    <material formula="" name="rpcGas">
+      <D value="0.001784"/>
+      <fraction n="0.75" ref="argon"/>
+      <fraction n="0.2" ref="CH2FCF3"/>
+      <fraction n="0.04" ref="C4H10"/>
+      <fraction n="0.01" ref="SF6"/>
+    </material>
+    <material formula="" name="epoxy_resin">
+      <D value="1.125"/>
+      <composite n="38" ref="carbon"/>
+      <composite n="40" ref="hydrogen"/>
+      <composite n="6" ref="oxygen"/>
+    </material>
+    <material formula="" name="SSteel304">
+      <D value="7.9"/>
+      <fraction n="0.0008" ref="carbon"/>
+      <fraction n="0.02" ref="manganese"/>
+      <fraction n="0.00045" ref="phosphorus"/>
+      <fraction n="0.0003" ref="sulfur"/>
+      <fraction n="0.0075" ref="silicon"/>
+      <fraction n="0.18" ref="chromium"/>
+      <fraction n="0.08" ref="nickel"/>
+      <fraction n="0.001" ref="nitrogen"/>
+      <fraction n="0.70995" ref="iron"/>
+    </material>
+    <material formula="" name="CalciumSilicate">
+      <D value="0.6"/>
+      <composite n="1" ref="calcium"/>
+      <composite n="3" ref="oxygen"/>
+      <composite n="1" ref="silicon"/>
+    </material>
+    <material formula="" name="CarbonSteel">
+      <D value="7.9"/>
+      <fraction n="0.003" ref="carbon"/>
+      <fraction n="0.0025" ref="copper"/>
+      <fraction n="0.98" ref="iron"/>
+      <fraction n="0.0103" ref="manganese"/>
+      <fraction n="0.0009" ref="phosphorus"/>
+      <fraction n="0.0028" ref="silicon"/>
+      <fraction n="0.0005" ref="sulfur"/>
+    </material>
+    <material formula="" name="ReifConcrete">
+      <D value="2.5"/>
+      <fraction n="0.6661" ref="CaO"/>
+      <fraction n="0.2345" ref="SiO2"/>
+      <fraction n="0.0445" ref="Al2O3"/>
+      <fraction n="0.0307" ref="Fe2O3"/>
+      <fraction n="0.0242" ref="MgO"/>
+    </material>
+    <material formula="" name="Polyurethane">
+      <D value="0.065"/>
+      <composite n="27" ref="carbon"/>
+      <composite n="36" ref="hydrogen"/>
+      <composite n="2" ref="nitrogen"/>
+      <composite n="10" ref="oxygen"/>
+    </material>
+    <material formula="" name="Epoxy">
+      <D value="1.25"/>
+      <composite n="6" ref="carbon"/>
+      <composite n="6" ref="hydrogen"/>
+      <composite n="1" ref="oxygen"/>
+    </material>
+    <material formula="" name="Glass">
+      <D value="2.7"/>
+      <fraction n="0.2743" ref="silicon"/>
+      <fraction n="0.0166" ref="boron"/>
+      <fraction n="0.0207" ref="aluminum"/>
+      <fraction n="0.0449" ref="sodium"/>
+      <fraction n="0.0821" ref="potassium"/>
+      <fraction n="0.0882" ref="zinc"/>
+      <fraction n="0.0292" ref="titanium"/>
+      <fraction n="0.444" ref="oxygen"/>
+    </material>
+    <material formula="" name="FR4">
+      <D value="1.85"/>
+      <fraction n="0.206" ref="Epoxy"/>
+      <fraction n="0.794" ref="Glass"/>
+    </material>
+    <material formula="" name="PVT">
+      <D value="1.023"/>
+      <composite n="9" ref="carbon"/>
+      <composite n="10" ref="hydrogen"/>
+    </material>
+    <material formula="" name="Scintillator">
+      <D value="1.05"/>
+      <fraction n="0.916" ref="carbon"/>
+      <fraction n="0.084" ref="hydrogen"/>
+    </material>
+    <material formula="" name="ScintillatorLoadedBoron5">
+      <D value="1.05"/>
+      <fraction n="0.866" ref="carbon"/>
+      <fraction n="0.084" ref="hydrogen"/>
+      <fraction n="0.05" ref="boron"/>
+    </material>
+    <material formula="" name="Oil">
+      <D value="0.8"/>
+      <fraction n="0.916" ref="carbon"/>
+      <fraction n="0.084" ref="hydrogen"/>
+    </material>
+    <material formula="" name="Lead">
+      <D value="11.342"/>
+      <composite n="1" ref="lead"/>
+    </material>
+    <material formula="" name="LAr">
+      <D value="1.4"/>
+      <composite n="1" ref="argon"/>
+    </material>
+    <material formula="" name="GAr">
+      <D value="0.001784"/>
+      <composite n="1" ref="argon"/>
+    </material>
+    <material formula="" name="KLOEEcal">
+      <D value="5.3"/>
+      <fraction n="0.42" ref="Lead"/>
+      <fraction n="0.48" ref="Scintillator"/>
+      <fraction n="0.1" ref="epoxy_resin"/>
+    </material>
+    <material formula="" name="PVF">
+      <D value="1.71"/>
+      <composite n="2" ref="carbon"/>
+      <composite n="3" ref="hydrogen"/>
+      <composite n="1" ref="fluorine"/>
+    </material>
+    <material formula="" name="Kevlar">
+      <D value="1.45"/>
+      <composite n="7" ref="carbon"/>
+      <composite n="5" ref="hydrogen"/>
+      <composite n="1" ref="nitrogen"/>
+      <composite n="1" ref="oxygen"/>
+    </material>
+    <material formula="" name="NomexHoneycomb">
+      <D value="0.029"/>
+      <composite n="7" ref="carbon"/>
+      <composite n="5" ref="hydrogen"/>
+      <composite n="1" ref="nitrogen"/>
+      <composite n="1" ref="oxygen"/>
+    </material>
+    <material formula="" name="Mylar">
+      <D value="1.39"/>
+      <composite n="10" ref="carbon"/>
+      <composite n="8" ref="hydrogen"/>
+      <composite n="4" ref="oxygen"/>
+    </material>
+    <material formula="" name="KevlarPrepreg">
+      <D value="1.37"/>
+      <fraction n="0.6" ref="Kevlar"/>
+      <fraction n="0.4" ref="epoxy_resin"/>
+    </material>
+    <material formula="" name="Methane">
+      <D value="0.000716"/>
+      <composite n="1" ref="carbon"/>
+      <composite n="4" ref="hydrogen"/>
+    </material>
+    <material formula="" name="Ethane">
+      <D value="0.00134"/>
+      <composite n="2" ref="carbon"/>
+      <composite n="6" ref="hydrogen"/>
+    </material>
+    <material formula="" name="CF4">
+      <D value="0.00393"/>
+      <composite n="1" ref="carbon"/>
+      <composite n="4" ref="fluorine"/>
+    </material>
+    <material formula="" name="CH2F2">
+      <D value="0.00232"/>
+      <composite n="1" ref="carbon"/>
+      <composite n="2" ref="hydrogen"/>
+      <composite n="2" ref="fluorine"/>
+    </material>
+    <material formula="" name="DME">
+      <D value="0.00206"/>
+      <composite n="2" ref="carbon"/>
+      <composite n="6" ref="hydrogen"/>
+      <composite n="1" ref="oxygen"/>
+    </material>
+    <material formula="" name="Nitrogen">
+      <D value="0.000625"/>
+      <composite n="1" ref="nitrogen"/>
+    </material>
+    <material formula="" name="HP_Ar">
+      <D value="0.01784"/>
+      <composite n="1" ref="argon"/>
+    </material>
+    <material formula="" name="HP_ArCO2">
+      <D value="0.01802"/>
+      <fraction n="0.89" ref="HP_Ar"/>
+      <fraction n="0.11" ref="CO2"/>
+    </material>
+    <material formula="" name="HP_ArCH4">
+      <D value="0.01677"/>
+      <fraction n="0.957" ref="HP_Ar"/>
+      <fraction n="0.043" ref="Methane"/>
+    </material>
+    <material formula="" name="HP_ArCF4">
+      <D value="0.01998"/>
+      <fraction n="0.801" ref="HP_Ar"/>
+      <fraction n="0.199" ref="CF4"/>
+    </material>
+    <material formula="" name="NoGas">
+      <D value="1e-25"/>
+      <fraction n="1.0" ref="argon"/>
+    </material>
+  </materials>
+  <solids>
+    <box lunit="cm" name="LArService" x="50.0" y="331.02" z="509.1"/>
+    <box lunit="cm" name="AirService" x="50.0" y="20.0" z="509.1"/>
+    <box lunit="cm" name="ArgonCubeServiceL" x="50.0" y="351.02" z="509.1"/>
+    <box lunit="cm" name="LArBot" x="101.1" y="10.0" z="100.82"/>
+    <box lunit="cm" name="LArBotWall" x="102.1" y="10.5" z="101.82"/>
+    <box lunit="cm" name="LArBotModule" x="714.7" y="10.5" z="509.1"/>
+    <box lunit="cm" name="PixelPlaneL" x="0.3" y="300.0" z="100.8"/>
+    <box lunit="cm" name="LArActive" x="50.0" y="300.0" z="100.0"/>
+    <box lunit="cm" name="LightUsPlane" x="50.0" y="300.0" z="0.4"/>
+    <box lunit="cm" name="LightDsPlane" x="50.0" y="300.0" z="0.4"/>
+    <box lunit="cm" name="LArLight" x="50.0" y="300.0" z="100.8"/>
+    <box lunit="cm" name="ResistiveWireTop" x="1.0" y="0.01" z="100.8"/>
+    <box lunit="cm" name="ResistiveFieldTop" x="50.0" y="0.01" z="100.8"/>
+    <box lunit="cm" name="ResistiveWireSide" x="1.0" y="300.0" z="0.01"/>
+    <box lunit="cm" name="ResistiveFieldSide" x="50.0" y="300.0" z="0.01"/>
+    <box lunit="cm" name="LArSubModuleLeft" x="50.0" y="300.02" z="100.82"/>
+    <box lunit="cm" name="LArCathode" x="0.5" y="300.02" z="100.82"/>
+    <box lunit="cm" name="LArSubModuleRight" x="50.0" y="300.02" z="100.82"/>
+    <box lunit="cm" name="PixelPlaneR" x="0.3" y="300.0" z="100.8"/>
+    <box lunit="cm" name="LArActiveMod" x="101.1" y="300.02" z="100.82"/>
+    <box lunit="cm" name="LArActiveModWall" x="102.1" y="301.02" z="101.82"/>
+    <box lunit="cm" name="ArgonCubeActive" x="714.7" y="301.02" z="509.1"/>
+    <box lunit="cm" name="LArTop1" x="101.1" y="20.0" z="100.82"/>
+    <box lunit="cm" name="LArTop2" x="101.1" y="20.0" z="100.82"/>
+    <box lunit="cm" name="LArTopWall" x="102.1" y="40.0" z="101.82"/>
+    <box lunit="cm" name="LArTopModule" x="714.7" y="40.0" z="509.1"/>
+    <box lunit="cm" name="ArgonCube" x="714.7" y="351.52" z="509.1"/>
+    <box lunit="cm" name="ArgonCubeServiceR" x="50.0" y="351.02" z="509.1"/>
+    <box lunit="cm" name="ArgonCubeService" x="814.7" y="351.52" z="509.1"/>
+    <box lunit="cm" name="SSMembrane" x="815.1" y="351.72" z="509.5"/>
+    <box lunit="cm" name="FireproofBoard" x="817.1" y="352.72" z="511.5"/>
+    <box lunit="cm" name="GREBoard1" x="817.2" y="352.77" z="511.6"/>
+    <box lunit="cm" name="InsulationBoard1" x="855.2" y="371.77" z="549.6"/>
+    <box lunit="cm" name="GREBoard2" x="855.3" y="371.82" z="549.7"/>
+    <box lunit="cm" name="InsulationBoard2" x="895.3" y="391.82" z="589.7"/>
+    <box lunit="cm" name="MoistureBarrier" x="895.54" y="391.94" z="589.94"/>
+    <box lunit="cm" name="ReinforcedConcrete" x="955.54" y="566.94" z="649.94"/>
+    <box lunit="cm" name="G10Window" x="450.0" y="325.0" z="10.0"/>
+    <box lunit="cm" name="AirWindow" x="450.0" y="325.0" z="20.0"/>
+    <box lunit="cm" name="G10AirWindow" x="450.0" y="325.0" z="30.0"/>
+    <box lunit="cm" name="ArgonCubeCryostat" x="955.54" y="566.94" z="649.94"/>
+    <tube aunit="radian" deltaphi="6.28318530718" lunit="cm" name="Cylinder" rmax="4.0" rmin="0.0" startphi="0.0" z="60.0"/>
+    <box lunit="cm" name="CylinderLBox" x="10.0" y="40.0" z="60.0"/>
+    <tube aunit="radian" deltaphi="6.28318530718" lunit="cm" name="CylinderT" rmax="10.0" rmin="0.0" startphi="0.0" z="40.0"/>
+    <box lunit="cm" name="CylinderTBox" x="20.0" y="40.0" z="60.0"/>
+    <box lunit="cm" name="CylinderRBox" x="10.0" y="40.0" z="60.0"/>
+    <box lunit="cm" name="LArTop3" x="102.1" y="40.0" z="101.82"/>
+    <box lunit="cm" name="LArTopExtraModule" x="714.7" y="40.0" z="509.1"/>
+    <box lunit="cm" name="ArgonCubeTopExtra" x="955.54" y="40.0" z="649.94"/>
+    <box lunit="cm" name="ArgonCubeDetector" x="955.54" y="606.94" z="649.94"/>
+    <box lunit="cm" name="elevatorBlock1" x="1077.0" y="2443.0" z="30.48"/>
+    <tube aunit="radian" deltaphi="3.14159265359" lunit="cm" name="elevatorBlock2" rmax="335.28" rmin="304.8" startphi="0.0" z="2443.0"/>
+    <tube aunit="radian" deltaphi="6.28318530718" lunit="cm" name="elevatorBlock3" rmax="1000.0" rmin="579.0" startphi="0.0" z="2443.001"/>
+    <union name="elevatorBlockShapeTemp">
+      <first ref="elevatorBlock1"/>
+      <second ref="elevatorBlock2"/>
+      <positionref ref="elevatorBlock2Position"/>
+      <rotationref ref="r90aboutX180aboutY"/>
+    </union>
+    <subtraction name="elevatorBlockShape">
+      <first ref="elevatorBlockShapeTemp"/>
+      <second ref="elevatorBlock3"/>
+      <positionref ref="elevatorBlock3Position"/>
+      <rotationref ref="r90aboutX180aboutY"/>
+    </subtraction>
+    <box lunit="cm" name="craneRailBlock11" x="40.64" y="91.44" z="4938.0"/>
+    <box lunit="cm" name="craneRailBlock12" x="73.265" y="73.265" z="4938.001"/>
+    <box lunit="cm" name="craneRailBlock13" x="15.24" y="0.317" z="4938.0"/>
+    <subtraction name="crainRail1ShapeTemp">
+      <first ref="craneRailBlock11"/>
+      <second ref="craneRailBlock12"/>
+      <positionref ref="craneRailBlock12Position"/>
+      <rotationref ref="craneRailBlock12Rot"/>
+    </subtraction>
+    <union name="crainRail1Shape">
+      <first ref="crainRail1ShapeTemp"/>
+      <second ref="craneRailBlock13"/>
+      <positionref ref="craneRailBlock13Position"/>
+      <rotationref ref="identity"/>
+    </union>
+    <box lunit="cm" name="craneRailBlock21" x="40.64" y="91.44" z="4938.0"/>
+    <box lunit="cm" name="craneRailBlock22" x="73.265" y="73.265" z="4938.001"/>
+    <box lunit="cm" name="craneRailBlock23" x="15.24" y="0.317" z="4938.0"/>
+    <subtraction name="crainRail2ShapeTemp">
+      <first ref="craneRailBlock21"/>
+      <second ref="craneRailBlock22"/>
+      <positionref ref="craneRailBlock22Position"/>
+      <rotationref ref="craneRailBlock22Rot"/>
+    </subtraction>
+    <union name="crainRail2Shape">
+      <first ref="crainRail2ShapeTemp"/>
+      <second ref="craneRailBlock23"/>
+      <positionref ref="craneRailBlock23Position"/>
+      <rotationref ref="identity"/>
+    </union>
+    <box lunit="cm" name="egressHallwayInner" x="152.401" y="304.482" z="4938.01"/>
+    <box lunit="cm" name="egressHallwayOuter" x="182.88" y="334.963" z="4938.0"/>
+    <box lunit="cm" name="egressHallwayDoor" x="30.481" y="243.84" z="91.44"/>
+    <subtraction name="egressHallwayShapeTemp">
+      <first ref="egressHallwayOuter"/>
+      <second ref="egressHallwayInner"/>
+      <positionref ref="egressHallwayInnerPosition"/>
+      <rotationref ref="identity"/>
+    </subtraction>
+    <subtraction name="egressHallwayShape">
+      <first ref="egressHallwayShapeTemp"/>
+      <second ref="egressHallwayDoor"/>
+      <positionref ref="egressHallwayDoorPosition"/>
+      <rotationref ref="identity"/>
+    </subtraction>
+    <box lunit="cm" name="fullCryoTubeBox" x="96.52" y="63.918" z="4064.0"/>
+    <tube aunit="radian" deltaphi="6.28318530718" lunit="cm" name="cryoTube1" rmax="30.48" rmin="0.0" startphi="0.0" z="4064.0"/>
+    <tube aunit="radian" deltaphi="6.28318530718" lunit="cm" name="cryoTube2" rmax="15.24" rmin="0.0" startphi="0.0" z="4064.0"/>
+    <tube aunit="radian" deltaphi="6.28318530718" lunit="cm" name="cryoTube3" rmax="2.54" rmin="0.0" startphi="0.0" z="4064.0"/>
+    <tube aunit="radian" deltaphi="6.28318530718" lunit="cm" name="cryoTube4" rmax="8.21" rmin="0.0" startphi="0.0" z="4064.0"/>
+    <tube aunit="radian" deltaphi="6.28318530718" lunit="cm" name="cryoTube5" rmax="8.21" rmin="0.0" startphi="0.0" z="4064.0"/>
+    <box lunit="cm" name="NDHallAirVolSpace1" x="4938.0" y="1524.0" z="1920.0"/>
+    <box lunit="cm" name="NDHallAirVolSpace2" x="962.0" y="1064.0" z="1035.0"/>
+    <tube aunit="radian" deltaphi="6.28318530718" lunit="cm" name="NDHallAirVolSpace3" rmax="579.0" rmin="0.0" startphi="0.0" z="2443.0"/>
+    <tube aunit="radian" deltaphi="2.35132502158" lunit="cm" name="NDHallAirVolSpace4" rmax="1040.13" rmin="0.0" startphi="0.395136608532" z="4939.0"/>
+    <box lunit="cm" name="NDHallAirVolSpace5" x="91.44" y="243.84" z="30.48"/>
+    <box lunit="cm" name="NDHallAirVolSpace6" x="365.76" y="762.0" z="213.36"/>
+    <box lunit="cm" name="NDHallAirVolSpace7" x="152.4" y="426.72" z="228.702"/>
+    <union name="NDHallAirVolTemp1">
+      <first ref="NDHallAirVolSpace1"/>
+      <second ref="NDHallAirVolSpace2"/>
+      <positionref ref="NDHallSpaceAirVol2Position"/>
+      <rotationref ref="identity"/>
+    </union>
+    <union name="NDHallAirVolTemp2">
+      <first ref="NDHallAirVolTemp1"/>
+      <second ref="NDHallAirVolSpace3"/>
+      <positionref ref="NDHallSpace3AirVolPosition"/>
+      <rotationref ref="r90aboutX"/>
+    </union>
+    <union name="NDHallAirVolTemp3">
+      <first ref="NDHallAirVolTemp2"/>
+      <second ref="NDHallAirVolSpace4"/>
+      <positionref ref="NDHallAirVolSpace4Position"/>
+      <rotationref ref="r90aboutY"/>
+    </union>
+    <union name="NDHallAirVolTemp4">
+      <first ref="NDHallAirVolTemp3"/>
+      <second ref="NDHallAirVolSpace5"/>
+      <positionref ref="NDHallAirVolSpace5Position"/>
+      <rotationref ref="identity"/>
+    </union>
+    <union name="NDHallAirVolTemp5">
+      <first ref="NDHallAirVolTemp4"/>
+      <second ref="NDHallAirVolSpace6"/>
+      <positionref ref="NDHallAirVolSpace6Position"/>
+      <rotationref ref="identity"/>
+    </union>
+    <union name="NDHallAirVolShape">
+      <first ref="NDHallAirVolTemp5"/>
+      <second ref="NDHallAirVolSpace7"/>
+      <positionref ref="NDHallAirVolSpace7Position"/>
+      <rotationref ref="identity"/>
+    </union>
+    <box lunit="cm" name="RockBoxMain" x="6517.0" y="3164.0" z="27955.0"/>
+    <box lunit="cm" name="RockBoxUpstream" x="16917.0" y="13564.0" z="25000.0"/>
+    <box lunit="cm" name="RockBoxSubt" x="6517.001" y="1110.01" z="1035.001"/>
+    <tube aunit="radian" deltaphi="6.28318530718" lunit="cm" name="rockTub" rmax="579.0" rmin="0.0" startphi="0.0" z="3443.0"/>
+    <union name="rockBoxTemp1">
+      <first ref="RockBoxMain"/>
+      <second ref="RockBoxUpstream"/>
+      <positionref ref="rockBoxUpstreamPosition"/>
+      <rotationref ref="identity"/>
+    </union>
+    <subtraction name="rockBoxTemp2">
+      <first ref="rockBoxTemp1"/>
+      <second ref="RockBoxSubt"/>
+      <positionref ref="rockBoxSubtPosition"/>
+      <rotationref ref="identity"/>
+    </subtraction>
+    <union name="rockBox">
+      <first ref="rockBoxTemp2"/>
+      <second ref="rockTub"/>
+      <positionref ref="rockTubPosition"/>
+      <rotationref ref="r90aboutX"/>
+    </union>
+    <box lunit="cm" name="World" x="60000.0" y="60000.0" z="60000.0"/>
+  </solids>
+  <structure>
+    <volume name="volLArService">
+      <materialref ref="LAr"/>
+      <solidref ref="LArService"/>
+    </volume>
+    <volume name="volAirService">
+      <materialref ref="Air"/>
+      <solidref ref="AirService"/>
+    </volume>
+    <volume name="volArgonCubeServiceL">
+      <materialref ref="Air"/>
+      <solidref ref="ArgonCubeServiceL"/>
+      <physvol>
+        <volumeref ref="volLArService"/>
+        <positionref ref="ArgonCubeServiceLvolLArService0_pos"/>
+        <rotationref ref="ArgonCubeServiceL_rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volAirService"/>
+        <positionref ref="ArgonCubeServiceLvolAirService0_pos"/>
+        <rotationref ref="ArgonCubeServiceL_rot"/>
+      </physvol>
+    </volume>
+    <volume name="volLArBot">
+      <materialref ref="LAr"/>
+      <solidref ref="LArBot"/>
+    </volume>
+    <volume name="volLArBotWall">
+      <materialref ref="FR4"/>
+      <solidref ref="LArBotWall"/>
+      <physvol>
+        <volumeref ref="volLArBot"/>
+        <positionref ref="LArBotWallvolLArBot_pos"/>
+        <rotationref ref="LArBotWall_rot"/>
+      </physvol>
+    </volume>
+    <volume name="volLArBotModule">
+      <materialref ref="Air"/>
+      <solidref ref="LArBotModule"/>
+      <physvol>
+        <volumeref ref="volLArBotWall"/>
+        <positionref ref="LArBotModule_el0_0_pos"/>
+        <rotationref ref="LArBotModule_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArBotWall"/>
+        <positionref ref="LArBotModule_el1_0_pos"/>
+        <rotationref ref="LArBotModule_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArBotWall"/>
+        <positionref ref="LArBotModule_el2_0_pos"/>
+        <rotationref ref="LArBotModule_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArBotWall"/>
+        <positionref ref="LArBotModule_el3_0_pos"/>
+        <rotationref ref="LArBotModule_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArBotWall"/>
+        <positionref ref="LArBotModule_el4_0_pos"/>
+        <rotationref ref="LArBotModule_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArBotWall"/>
+        <positionref ref="LArBotModule_el5_0_pos"/>
+        <rotationref ref="LArBotModule_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArBotWall"/>
+        <positionref ref="LArBotModule_el6_0_pos"/>
+        <rotationref ref="LArBotModule_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArBotWall"/>
+        <positionref ref="LArBotModule_el0_1_pos"/>
+        <rotationref ref="LArBotModule_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArBotWall"/>
+        <positionref ref="LArBotModule_el1_1_pos"/>
+        <rotationref ref="LArBotModule_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArBotWall"/>
+        <positionref ref="LArBotModule_el2_1_pos"/>
+        <rotationref ref="LArBotModule_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArBotWall"/>
+        <positionref ref="LArBotModule_el3_1_pos"/>
+        <rotationref ref="LArBotModule_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArBotWall"/>
+        <positionref ref="LArBotModule_el4_1_pos"/>
+        <rotationref ref="LArBotModule_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArBotWall"/>
+        <positionref ref="LArBotModule_el5_1_pos"/>
+        <rotationref ref="LArBotModule_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArBotWall"/>
+        <positionref ref="LArBotModule_el6_1_pos"/>
+        <rotationref ref="LArBotModule_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArBotWall"/>
+        <positionref ref="LArBotModule_el0_2_pos"/>
+        <rotationref ref="LArBotModule_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArBotWall"/>
+        <positionref ref="LArBotModule_el1_2_pos"/>
+        <rotationref ref="LArBotModule_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArBotWall"/>
+        <positionref ref="LArBotModule_el2_2_pos"/>
+        <rotationref ref="LArBotModule_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArBotWall"/>
+        <positionref ref="LArBotModule_el3_2_pos"/>
+        <rotationref ref="LArBotModule_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArBotWall"/>
+        <positionref ref="LArBotModule_el4_2_pos"/>
+        <rotationref ref="LArBotModule_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArBotWall"/>
+        <positionref ref="LArBotModule_el5_2_pos"/>
+        <rotationref ref="LArBotModule_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArBotWall"/>
+        <positionref ref="LArBotModule_el6_2_pos"/>
+        <rotationref ref="LArBotModule_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArBotWall"/>
+        <positionref ref="LArBotModule_el0_3_pos"/>
+        <rotationref ref="LArBotModule_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArBotWall"/>
+        <positionref ref="LArBotModule_el1_3_pos"/>
+        <rotationref ref="LArBotModule_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArBotWall"/>
+        <positionref ref="LArBotModule_el2_3_pos"/>
+        <rotationref ref="LArBotModule_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArBotWall"/>
+        <positionref ref="LArBotModule_el3_3_pos"/>
+        <rotationref ref="LArBotModule_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArBotWall"/>
+        <positionref ref="LArBotModule_el4_3_pos"/>
+        <rotationref ref="LArBotModule_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArBotWall"/>
+        <positionref ref="LArBotModule_el5_3_pos"/>
+        <rotationref ref="LArBotModule_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArBotWall"/>
+        <positionref ref="LArBotModule_el6_3_pos"/>
+        <rotationref ref="LArBotModule_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArBotWall"/>
+        <positionref ref="LArBotModule_el0_4_pos"/>
+        <rotationref ref="LArBotModule_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArBotWall"/>
+        <positionref ref="LArBotModule_el1_4_pos"/>
+        <rotationref ref="LArBotModule_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArBotWall"/>
+        <positionref ref="LArBotModule_el2_4_pos"/>
+        <rotationref ref="LArBotModule_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArBotWall"/>
+        <positionref ref="LArBotModule_el3_4_pos"/>
+        <rotationref ref="LArBotModule_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArBotWall"/>
+        <positionref ref="LArBotModule_el4_4_pos"/>
+        <rotationref ref="LArBotModule_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArBotWall"/>
+        <positionref ref="LArBotModule_el5_4_pos"/>
+        <rotationref ref="LArBotModule_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArBotWall"/>
+        <positionref ref="LArBotModule_el6_4_pos"/>
+        <rotationref ref="LArBotModule_rot1"/>
+      </physvol>
+    </volume>
+    <volume name="volPixelPlaneL">
+      <materialref ref="FR4"/>
+      <solidref ref="PixelPlaneL"/>
+    </volume>
+    <volume name="volLArActive">
+      <materialref ref="LAr"/>
+      <solidref ref="LArActive"/>
+      <auxiliary auxtype="SensDet" auxvalue="ArgonCube"/>
+    </volume>
+    <volume name="volLightUsPlane">
+      <materialref ref="PVT"/>
+      <solidref ref="LightUsPlane"/>
+    </volume>
+    <volume name="volLightDsPlane">
+      <materialref ref="PVT"/>
+      <solidref ref="LightDsPlane"/>
+    </volume>
+    <volume name="volLArLight">
+      <materialref ref="Air"/>
+      <solidref ref="LArLight"/>
+      <physvol>
+        <volumeref ref="volLArActive"/>
+        <positionref ref="LArLightvolLArActive0_pos"/>
+        <rotationref ref="LArLight_rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLightUsPlane"/>
+        <positionref ref="LArLightvolLightUsPlane0_pos"/>
+        <rotationref ref="LArLight_rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLightDsPlane"/>
+        <positionref ref="LArLightvolLightDsPlane0_pos"/>
+        <rotationref ref="LArLight_rot"/>
+      </physvol>
+    </volume>
+    <volume name="volResistiveWireTop">
+      <materialref ref="Copper"/>
+      <solidref ref="ResistiveWireTop"/>
+    </volume>
+    <volume name="volResistiveFieldTop">
+      <materialref ref="Air"/>
+      <solidref ref="ResistiveFieldTop"/>
+      <physvol>
+        <volumeref ref="volResistiveWireTop"/>
+        <positionref ref="ResistiveFieldTopvolResistiveWireTop0_pos"/>
+        <rotationref ref="ResistiveFieldTop_rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volResistiveWireTop"/>
+        <positionref ref="ResistiveFieldTopvolResistiveWireTop1_pos"/>
+        <rotationref ref="ResistiveFieldTop_rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volResistiveWireTop"/>
+        <positionref ref="ResistiveFieldTopvolResistiveWireTop2_pos"/>
+        <rotationref ref="ResistiveFieldTop_rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volResistiveWireTop"/>
+        <positionref ref="ResistiveFieldTopvolResistiveWireTop3_pos"/>
+        <rotationref ref="ResistiveFieldTop_rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volResistiveWireTop"/>
+        <positionref ref="ResistiveFieldTopvolResistiveWireTop4_pos"/>
+        <rotationref ref="ResistiveFieldTop_rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volResistiveWireTop"/>
+        <positionref ref="ResistiveFieldTopvolResistiveWireTop5_pos"/>
+        <rotationref ref="ResistiveFieldTop_rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volResistiveWireTop"/>
+        <positionref ref="ResistiveFieldTopvolResistiveWireTop6_pos"/>
+        <rotationref ref="ResistiveFieldTop_rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volResistiveWireTop"/>
+        <positionref ref="ResistiveFieldTopvolResistiveWireTop7_pos"/>
+        <rotationref ref="ResistiveFieldTop_rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volResistiveWireTop"/>
+        <positionref ref="ResistiveFieldTopvolResistiveWireTop8_pos"/>
+        <rotationref ref="ResistiveFieldTop_rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volResistiveWireTop"/>
+        <positionref ref="ResistiveFieldTopvolResistiveWireTop9_pos"/>
+        <rotationref ref="ResistiveFieldTop_rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volResistiveWireTop"/>
+        <positionref ref="ResistiveFieldTopvolResistiveWireTop10_pos"/>
+        <rotationref ref="ResistiveFieldTop_rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volResistiveWireTop"/>
+        <positionref ref="ResistiveFieldTopvolResistiveWireTop11_pos"/>
+        <rotationref ref="ResistiveFieldTop_rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volResistiveWireTop"/>
+        <positionref ref="ResistiveFieldTopvolResistiveWireTop12_pos"/>
+        <rotationref ref="ResistiveFieldTop_rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volResistiveWireTop"/>
+        <positionref ref="ResistiveFieldTopvolResistiveWireTop13_pos"/>
+        <rotationref ref="ResistiveFieldTop_rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volResistiveWireTop"/>
+        <positionref ref="ResistiveFieldTopvolResistiveWireTop14_pos"/>
+        <rotationref ref="ResistiveFieldTop_rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volResistiveWireTop"/>
+        <positionref ref="ResistiveFieldTopvolResistiveWireTop15_pos"/>
+        <rotationref ref="ResistiveFieldTop_rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volResistiveWireTop"/>
+        <positionref ref="ResistiveFieldTopvolResistiveWireTop16_pos"/>
+        <rotationref ref="ResistiveFieldTop_rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volResistiveWireTop"/>
+        <positionref ref="ResistiveFieldTopvolResistiveWireTop17_pos"/>
+        <rotationref ref="ResistiveFieldTop_rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volResistiveWireTop"/>
+        <positionref ref="ResistiveFieldTopvolResistiveWireTop18_pos"/>
+        <rotationref ref="ResistiveFieldTop_rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volResistiveWireTop"/>
+        <positionref ref="ResistiveFieldTopvolResistiveWireTop19_pos"/>
+        <rotationref ref="ResistiveFieldTop_rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volResistiveWireTop"/>
+        <positionref ref="ResistiveFieldTopvolResistiveWireTop20_pos"/>
+        <rotationref ref="ResistiveFieldTop_rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volResistiveWireTop"/>
+        <positionref ref="ResistiveFieldTopvolResistiveWireTop21_pos"/>
+        <rotationref ref="ResistiveFieldTop_rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volResistiveWireTop"/>
+        <positionref ref="ResistiveFieldTopvolResistiveWireTop22_pos"/>
+        <rotationref ref="ResistiveFieldTop_rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volResistiveWireTop"/>
+        <positionref ref="ResistiveFieldTopvolResistiveWireTop23_pos"/>
+        <rotationref ref="ResistiveFieldTop_rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volResistiveWireTop"/>
+        <positionref ref="ResistiveFieldTopvolResistiveWireTop24_pos"/>
+        <rotationref ref="ResistiveFieldTop_rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volResistiveWireTop"/>
+        <positionref ref="ResistiveFieldTopvolResistiveWireTop25_pos"/>
+        <rotationref ref="ResistiveFieldTop_rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volResistiveWireTop"/>
+        <positionref ref="ResistiveFieldTopvolResistiveWireTop26_pos"/>
+        <rotationref ref="ResistiveFieldTop_rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volResistiveWireTop"/>
+        <positionref ref="ResistiveFieldTopvolResistiveWireTop27_pos"/>
+        <rotationref ref="ResistiveFieldTop_rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volResistiveWireTop"/>
+        <positionref ref="ResistiveFieldTopvolResistiveWireTop28_pos"/>
+        <rotationref ref="ResistiveFieldTop_rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volResistiveWireTop"/>
+        <positionref ref="ResistiveFieldTopvolResistiveWireTop29_pos"/>
+        <rotationref ref="ResistiveFieldTop_rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volResistiveWireTop"/>
+        <positionref ref="ResistiveFieldTopvolResistiveWireTop30_pos"/>
+        <rotationref ref="ResistiveFieldTop_rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volResistiveWireTop"/>
+        <positionref ref="ResistiveFieldTopvolResistiveWireTop31_pos"/>
+        <rotationref ref="ResistiveFieldTop_rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volResistiveWireTop"/>
+        <positionref ref="ResistiveFieldTopvolResistiveWireTop32_pos"/>
+        <rotationref ref="ResistiveFieldTop_rot"/>
+      </physvol>
+    </volume>
+    <volume name="volResistiveWireSide">
+      <materialref ref="Copper"/>
+      <solidref ref="ResistiveWireSide"/>
+    </volume>
+    <volume name="volResistiveFieldSide">
+      <materialref ref="Air"/>
+      <solidref ref="ResistiveFieldSide"/>
+      <physvol>
+        <volumeref ref="volResistiveWireSide"/>
+        <positionref ref="ResistiveFieldSidevolResistiveWireSide0_pos"/>
+        <rotationref ref="ResistiveFieldSide_rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volResistiveWireSide"/>
+        <positionref ref="ResistiveFieldSidevolResistiveWireSide1_pos"/>
+        <rotationref ref="ResistiveFieldSide_rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volResistiveWireSide"/>
+        <positionref ref="ResistiveFieldSidevolResistiveWireSide2_pos"/>
+        <rotationref ref="ResistiveFieldSide_rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volResistiveWireSide"/>
+        <positionref ref="ResistiveFieldSidevolResistiveWireSide3_pos"/>
+        <rotationref ref="ResistiveFieldSide_rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volResistiveWireSide"/>
+        <positionref ref="ResistiveFieldSidevolResistiveWireSide4_pos"/>
+        <rotationref ref="ResistiveFieldSide_rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volResistiveWireSide"/>
+        <positionref ref="ResistiveFieldSidevolResistiveWireSide5_pos"/>
+        <rotationref ref="ResistiveFieldSide_rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volResistiveWireSide"/>
+        <positionref ref="ResistiveFieldSidevolResistiveWireSide6_pos"/>
+        <rotationref ref="ResistiveFieldSide_rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volResistiveWireSide"/>
+        <positionref ref="ResistiveFieldSidevolResistiveWireSide7_pos"/>
+        <rotationref ref="ResistiveFieldSide_rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volResistiveWireSide"/>
+        <positionref ref="ResistiveFieldSidevolResistiveWireSide8_pos"/>
+        <rotationref ref="ResistiveFieldSide_rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volResistiveWireSide"/>
+        <positionref ref="ResistiveFieldSidevolResistiveWireSide9_pos"/>
+        <rotationref ref="ResistiveFieldSide_rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volResistiveWireSide"/>
+        <positionref ref="ResistiveFieldSidevolResistiveWireSide10_pos"/>
+        <rotationref ref="ResistiveFieldSide_rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volResistiveWireSide"/>
+        <positionref ref="ResistiveFieldSidevolResistiveWireSide11_pos"/>
+        <rotationref ref="ResistiveFieldSide_rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volResistiveWireSide"/>
+        <positionref ref="ResistiveFieldSidevolResistiveWireSide12_pos"/>
+        <rotationref ref="ResistiveFieldSide_rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volResistiveWireSide"/>
+        <positionref ref="ResistiveFieldSidevolResistiveWireSide13_pos"/>
+        <rotationref ref="ResistiveFieldSide_rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volResistiveWireSide"/>
+        <positionref ref="ResistiveFieldSidevolResistiveWireSide14_pos"/>
+        <rotationref ref="ResistiveFieldSide_rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volResistiveWireSide"/>
+        <positionref ref="ResistiveFieldSidevolResistiveWireSide15_pos"/>
+        <rotationref ref="ResistiveFieldSide_rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volResistiveWireSide"/>
+        <positionref ref="ResistiveFieldSidevolResistiveWireSide16_pos"/>
+        <rotationref ref="ResistiveFieldSide_rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volResistiveWireSide"/>
+        <positionref ref="ResistiveFieldSidevolResistiveWireSide17_pos"/>
+        <rotationref ref="ResistiveFieldSide_rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volResistiveWireSide"/>
+        <positionref ref="ResistiveFieldSidevolResistiveWireSide18_pos"/>
+        <rotationref ref="ResistiveFieldSide_rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volResistiveWireSide"/>
+        <positionref ref="ResistiveFieldSidevolResistiveWireSide19_pos"/>
+        <rotationref ref="ResistiveFieldSide_rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volResistiveWireSide"/>
+        <positionref ref="ResistiveFieldSidevolResistiveWireSide20_pos"/>
+        <rotationref ref="ResistiveFieldSide_rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volResistiveWireSide"/>
+        <positionref ref="ResistiveFieldSidevolResistiveWireSide21_pos"/>
+        <rotationref ref="ResistiveFieldSide_rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volResistiveWireSide"/>
+        <positionref ref="ResistiveFieldSidevolResistiveWireSide22_pos"/>
+        <rotationref ref="ResistiveFieldSide_rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volResistiveWireSide"/>
+        <positionref ref="ResistiveFieldSidevolResistiveWireSide23_pos"/>
+        <rotationref ref="ResistiveFieldSide_rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volResistiveWireSide"/>
+        <positionref ref="ResistiveFieldSidevolResistiveWireSide24_pos"/>
+        <rotationref ref="ResistiveFieldSide_rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volResistiveWireSide"/>
+        <positionref ref="ResistiveFieldSidevolResistiveWireSide25_pos"/>
+        <rotationref ref="ResistiveFieldSide_rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volResistiveWireSide"/>
+        <positionref ref="ResistiveFieldSidevolResistiveWireSide26_pos"/>
+        <rotationref ref="ResistiveFieldSide_rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volResistiveWireSide"/>
+        <positionref ref="ResistiveFieldSidevolResistiveWireSide27_pos"/>
+        <rotationref ref="ResistiveFieldSide_rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volResistiveWireSide"/>
+        <positionref ref="ResistiveFieldSidevolResistiveWireSide28_pos"/>
+        <rotationref ref="ResistiveFieldSide_rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volResistiveWireSide"/>
+        <positionref ref="ResistiveFieldSidevolResistiveWireSide29_pos"/>
+        <rotationref ref="ResistiveFieldSide_rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volResistiveWireSide"/>
+        <positionref ref="ResistiveFieldSidevolResistiveWireSide30_pos"/>
+        <rotationref ref="ResistiveFieldSide_rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volResistiveWireSide"/>
+        <positionref ref="ResistiveFieldSidevolResistiveWireSide31_pos"/>
+        <rotationref ref="ResistiveFieldSide_rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volResistiveWireSide"/>
+        <positionref ref="ResistiveFieldSidevolResistiveWireSide32_pos"/>
+        <rotationref ref="ResistiveFieldSide_rot"/>
+      </physvol>
+    </volume>
+    <volume name="volLArSubModuleLeft">
+      <materialref ref="Air"/>
+      <solidref ref="LArSubModuleLeft"/>
+      <physvol>
+        <volumeref ref="volLArLight"/>
+        <positionref ref="volLArSubModuleLeftvolLArLight_pos"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volResistiveFieldTop"/>
+        <positionref ref="volLArSubModuleLeftvolResistiveFieldTop_top_pos"/>
+        <rotationref ref="LArSubModuleLeft_rotTop"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volResistiveFieldSide"/>
+        <positionref ref="volLArSubModuleLeftvolResistiveFieldSide_left_pos"/>
+        <rotationref ref="LArSubModuleLeft_rotLeft"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volResistiveFieldTop"/>
+        <positionref ref="volLArSubModuleLeftvolResistiveFieldTop_bottom_pos"/>
+        <rotationref ref="LArSubModuleLeft_rotBottom"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volResistiveFieldSide"/>
+        <positionref ref="volLArSubModuleLeftvolResistiveFieldSide_right_pos"/>
+        <rotationref ref="LArSubModuleLeft_rotRight"/>
+      </physvol>
+    </volume>
+    <volume name="volLArCathode">
+      <materialref ref="Copper"/>
+      <solidref ref="LArCathode"/>
+    </volume>
+    <volume name="volLArSubModuleRight">
+      <materialref ref="Air"/>
+      <solidref ref="LArSubModuleRight"/>
+      <physvol>
+        <volumeref ref="volLArLight"/>
+        <positionref ref="volLArSubModuleRightvolLArLight_pos"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volResistiveFieldTop"/>
+        <positionref ref="volLArSubModuleRightvolResistiveFieldTop_top_pos"/>
+        <rotationref ref="LArSubModuleRight_rotTop"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volResistiveFieldSide"/>
+        <positionref ref="volLArSubModuleRightvolResistiveFieldSide_left_pos"/>
+        <rotationref ref="LArSubModuleRight_rotLeft"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volResistiveFieldTop"/>
+        <positionref ref="volLArSubModuleRightvolResistiveFieldTop_bottom_pos"/>
+        <rotationref ref="LArSubModuleRight_rotBottom"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volResistiveFieldSide"/>
+        <positionref ref="volLArSubModuleRightvolResistiveFieldSide_right_pos"/>
+        <rotationref ref="LArSubModuleRight_rotRight"/>
+      </physvol>
+    </volume>
+    <volume name="volPixelPlaneR">
+      <materialref ref="FR4"/>
+      <solidref ref="PixelPlaneR"/>
+    </volume>
+    <volume name="volLArActiveMod">
+      <materialref ref="Air"/>
+      <solidref ref="LArActiveMod"/>
+      <physvol>
+        <volumeref ref="volPixelPlaneL"/>
+        <positionref ref="LArActiveModvolPixelPlaneL0_pos"/>
+        <rotationref ref="LArActiveMod_rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArSubModuleLeft"/>
+        <positionref ref="LArActiveModvolLArSubModuleLeft0_pos"/>
+        <rotationref ref="LArActiveMod_rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArCathode"/>
+        <positionref ref="LArActiveModvolLArCathode0_pos"/>
+        <rotationref ref="LArActiveMod_rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArSubModuleRight"/>
+        <positionref ref="LArActiveModvolLArSubModuleRight0_pos"/>
+        <rotationref ref="LArActiveMod_rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volPixelPlaneR"/>
+        <positionref ref="LArActiveModvolPixelPlaneR0_pos"/>
+        <rotationref ref="LArActiveMod_rot"/>
+      </physvol>
+    </volume>
+    <volume name="volLArActiveModWall00">
+      <materialref ref="FR4"/>
+      <solidref ref="LArActiveModWall"/>
+      <physvol>
+        <volumeref ref="volLArActiveMod"/>
+        <positionref ref="volLArActiveMod_pos"/>
+        <rotationref ref="volLArActiveMod_rot"/>
+      </physvol>
+    </volume>
+    <volume name="volLArActiveModWall10">
+      <materialref ref="FR4"/>
+      <solidref ref="LArActiveModWall"/>
+      <physvol>
+        <volumeref ref="volLArActiveMod"/>
+        <positionref ref="volLArActiveMod_pos"/>
+        <rotationref ref="volLArActiveMod_rot"/>
+      </physvol>
+    </volume>
+    <volume name="volLArActiveModWall20">
+      <materialref ref="FR4"/>
+      <solidref ref="LArActiveModWall"/>
+      <physvol>
+        <volumeref ref="volLArActiveMod"/>
+        <positionref ref="volLArActiveMod_pos"/>
+        <rotationref ref="volLArActiveMod_rot"/>
+      </physvol>
+    </volume>
+    <volume name="volLArActiveModWall30">
+      <materialref ref="FR4"/>
+      <solidref ref="LArActiveModWall"/>
+      <physvol>
+        <volumeref ref="volLArActiveMod"/>
+        <positionref ref="volLArActiveMod_pos"/>
+        <rotationref ref="volLArActiveMod_rot"/>
+      </physvol>
+    </volume>
+    <volume name="volLArActiveModWall40">
+      <materialref ref="FR4"/>
+      <solidref ref="LArActiveModWall"/>
+      <physvol>
+        <volumeref ref="volLArActiveMod"/>
+        <positionref ref="volLArActiveMod_pos"/>
+        <rotationref ref="volLArActiveMod_rot"/>
+      </physvol>
+    </volume>
+    <volume name="volLArActiveModWall50">
+      <materialref ref="FR4"/>
+      <solidref ref="LArActiveModWall"/>
+      <physvol>
+        <volumeref ref="volLArActiveMod"/>
+        <positionref ref="volLArActiveMod_pos"/>
+        <rotationref ref="volLArActiveMod_rot"/>
+      </physvol>
+    </volume>
+    <volume name="volLArActiveModWall60">
+      <materialref ref="FR4"/>
+      <solidref ref="LArActiveModWall"/>
+      <physvol>
+        <volumeref ref="volLArActiveMod"/>
+        <positionref ref="volLArActiveMod_pos"/>
+        <rotationref ref="volLArActiveMod_rot"/>
+      </physvol>
+    </volume>
+    <volume name="volLArActiveModWall01">
+      <materialref ref="FR4"/>
+      <solidref ref="LArActiveModWall"/>
+      <physvol>
+        <volumeref ref="volLArActiveMod"/>
+        <positionref ref="volLArActiveMod_pos"/>
+        <rotationref ref="volLArActiveMod_rot"/>
+      </physvol>
+    </volume>
+    <volume name="volLArActiveModWall11">
+      <materialref ref="FR4"/>
+      <solidref ref="LArActiveModWall"/>
+      <physvol>
+        <volumeref ref="volLArActiveMod"/>
+        <positionref ref="volLArActiveMod_pos"/>
+        <rotationref ref="volLArActiveMod_rot"/>
+      </physvol>
+    </volume>
+    <volume name="volLArActiveModWall21">
+      <materialref ref="FR4"/>
+      <solidref ref="LArActiveModWall"/>
+      <physvol>
+        <volumeref ref="volLArActiveMod"/>
+        <positionref ref="volLArActiveMod_pos"/>
+        <rotationref ref="volLArActiveMod_rot"/>
+      </physvol>
+    </volume>
+    <volume name="volLArActiveModWall31">
+      <materialref ref="FR4"/>
+      <solidref ref="LArActiveModWall"/>
+      <physvol>
+        <volumeref ref="volLArActiveMod"/>
+        <positionref ref="volLArActiveMod_pos"/>
+        <rotationref ref="volLArActiveMod_rot"/>
+      </physvol>
+    </volume>
+    <volume name="volLArActiveModWall41">
+      <materialref ref="FR4"/>
+      <solidref ref="LArActiveModWall"/>
+      <physvol>
+        <volumeref ref="volLArActiveMod"/>
+        <positionref ref="volLArActiveMod_pos"/>
+        <rotationref ref="volLArActiveMod_rot"/>
+      </physvol>
+    </volume>
+    <volume name="volLArActiveModWall51">
+      <materialref ref="FR4"/>
+      <solidref ref="LArActiveModWall"/>
+      <physvol>
+        <volumeref ref="volLArActiveMod"/>
+        <positionref ref="volLArActiveMod_pos"/>
+        <rotationref ref="volLArActiveMod_rot"/>
+      </physvol>
+    </volume>
+    <volume name="volLArActiveModWall61">
+      <materialref ref="FR4"/>
+      <solidref ref="LArActiveModWall"/>
+      <physvol>
+        <volumeref ref="volLArActiveMod"/>
+        <positionref ref="volLArActiveMod_pos"/>
+        <rotationref ref="volLArActiveMod_rot"/>
+      </physvol>
+    </volume>
+    <volume name="volLArActiveModWall02">
+      <materialref ref="FR4"/>
+      <solidref ref="LArActiveModWall"/>
+      <physvol>
+        <volumeref ref="volLArActiveMod"/>
+        <positionref ref="volLArActiveMod_pos"/>
+        <rotationref ref="volLArActiveMod_rot"/>
+      </physvol>
+    </volume>
+    <volume name="volLArActiveModWall12">
+      <materialref ref="FR4"/>
+      <solidref ref="LArActiveModWall"/>
+      <physvol>
+        <volumeref ref="volLArActiveMod"/>
+        <positionref ref="volLArActiveMod_pos"/>
+        <rotationref ref="volLArActiveMod_rot"/>
+      </physvol>
+    </volume>
+    <volume name="volLArActiveModWall22">
+      <materialref ref="FR4"/>
+      <solidref ref="LArActiveModWall"/>
+      <physvol>
+        <volumeref ref="volLArActiveMod"/>
+        <positionref ref="volLArActiveMod_pos"/>
+        <rotationref ref="volLArActiveMod_rot"/>
+      </physvol>
+    </volume>
+    <volume name="volLArActiveModWall32">
+      <materialref ref="FR4"/>
+      <solidref ref="LArActiveModWall"/>
+      <physvol>
+        <volumeref ref="volLArActiveMod"/>
+        <positionref ref="volLArActiveMod_pos"/>
+        <rotationref ref="volLArActiveMod_rot"/>
+      </physvol>
+    </volume>
+    <volume name="volLArActiveModWall42">
+      <materialref ref="FR4"/>
+      <solidref ref="LArActiveModWall"/>
+      <physvol>
+        <volumeref ref="volLArActiveMod"/>
+        <positionref ref="volLArActiveMod_pos"/>
+        <rotationref ref="volLArActiveMod_rot"/>
+      </physvol>
+    </volume>
+    <volume name="volLArActiveModWall52">
+      <materialref ref="FR4"/>
+      <solidref ref="LArActiveModWall"/>
+      <physvol>
+        <volumeref ref="volLArActiveMod"/>
+        <positionref ref="volLArActiveMod_pos"/>
+        <rotationref ref="volLArActiveMod_rot"/>
+      </physvol>
+    </volume>
+    <volume name="volLArActiveModWall62">
+      <materialref ref="FR4"/>
+      <solidref ref="LArActiveModWall"/>
+      <physvol>
+        <volumeref ref="volLArActiveMod"/>
+        <positionref ref="volLArActiveMod_pos"/>
+        <rotationref ref="volLArActiveMod_rot"/>
+      </physvol>
+    </volume>
+    <volume name="volLArActiveModWall03">
+      <materialref ref="FR4"/>
+      <solidref ref="LArActiveModWall"/>
+      <physvol>
+        <volumeref ref="volLArActiveMod"/>
+        <positionref ref="volLArActiveMod_pos"/>
+        <rotationref ref="volLArActiveMod_rot"/>
+      </physvol>
+    </volume>
+    <volume name="volLArActiveModWall13">
+      <materialref ref="FR4"/>
+      <solidref ref="LArActiveModWall"/>
+      <physvol>
+        <volumeref ref="volLArActiveMod"/>
+        <positionref ref="volLArActiveMod_pos"/>
+        <rotationref ref="volLArActiveMod_rot"/>
+      </physvol>
+    </volume>
+    <volume name="volLArActiveModWall23">
+      <materialref ref="FR4"/>
+      <solidref ref="LArActiveModWall"/>
+      <physvol>
+        <volumeref ref="volLArActiveMod"/>
+        <positionref ref="volLArActiveMod_pos"/>
+        <rotationref ref="volLArActiveMod_rot"/>
+      </physvol>
+    </volume>
+    <volume name="volLArActiveModWall33">
+      <materialref ref="FR4"/>
+      <solidref ref="LArActiveModWall"/>
+      <physvol>
+        <volumeref ref="volLArActiveMod"/>
+        <positionref ref="volLArActiveMod_pos"/>
+        <rotationref ref="volLArActiveMod_rot"/>
+      </physvol>
+    </volume>
+    <volume name="volLArActiveModWall43">
+      <materialref ref="FR4"/>
+      <solidref ref="LArActiveModWall"/>
+      <physvol>
+        <volumeref ref="volLArActiveMod"/>
+        <positionref ref="volLArActiveMod_pos"/>
+        <rotationref ref="volLArActiveMod_rot"/>
+      </physvol>
+    </volume>
+    <volume name="volLArActiveModWall53">
+      <materialref ref="FR4"/>
+      <solidref ref="LArActiveModWall"/>
+      <physvol>
+        <volumeref ref="volLArActiveMod"/>
+        <positionref ref="volLArActiveMod_pos"/>
+        <rotationref ref="volLArActiveMod_rot"/>
+      </physvol>
+    </volume>
+    <volume name="volLArActiveModWall63">
+      <materialref ref="FR4"/>
+      <solidref ref="LArActiveModWall"/>
+      <physvol>
+        <volumeref ref="volLArActiveMod"/>
+        <positionref ref="volLArActiveMod_pos"/>
+        <rotationref ref="volLArActiveMod_rot"/>
+      </physvol>
+    </volume>
+    <volume name="volLArActiveModWall04">
+      <materialref ref="FR4"/>
+      <solidref ref="LArActiveModWall"/>
+      <physvol>
+        <volumeref ref="volLArActiveMod"/>
+        <positionref ref="volLArActiveMod_pos"/>
+        <rotationref ref="volLArActiveMod_rot"/>
+      </physvol>
+    </volume>
+    <volume name="volLArActiveModWall14">
+      <materialref ref="FR4"/>
+      <solidref ref="LArActiveModWall"/>
+      <physvol>
+        <volumeref ref="volLArActiveMod"/>
+        <positionref ref="volLArActiveMod_pos"/>
+        <rotationref ref="volLArActiveMod_rot"/>
+      </physvol>
+    </volume>
+    <volume name="volLArActiveModWall24">
+      <materialref ref="FR4"/>
+      <solidref ref="LArActiveModWall"/>
+      <physvol>
+        <volumeref ref="volLArActiveMod"/>
+        <positionref ref="volLArActiveMod_pos"/>
+        <rotationref ref="volLArActiveMod_rot"/>
+      </physvol>
+    </volume>
+    <volume name="volLArActiveModWall34">
+      <materialref ref="FR4"/>
+      <solidref ref="LArActiveModWall"/>
+      <physvol>
+        <volumeref ref="volLArActiveMod"/>
+        <positionref ref="volLArActiveMod_pos"/>
+        <rotationref ref="volLArActiveMod_rot"/>
+      </physvol>
+    </volume>
+    <volume name="volLArActiveModWall44">
+      <materialref ref="FR4"/>
+      <solidref ref="LArActiveModWall"/>
+      <physvol>
+        <volumeref ref="volLArActiveMod"/>
+        <positionref ref="volLArActiveMod_pos"/>
+        <rotationref ref="volLArActiveMod_rot"/>
+      </physvol>
+    </volume>
+    <volume name="volLArActiveModWall54">
+      <materialref ref="FR4"/>
+      <solidref ref="LArActiveModWall"/>
+      <physvol>
+        <volumeref ref="volLArActiveMod"/>
+        <positionref ref="volLArActiveMod_pos"/>
+        <rotationref ref="volLArActiveMod_rot"/>
+      </physvol>
+    </volume>
+    <volume name="volLArActiveModWall64">
+      <materialref ref="FR4"/>
+      <solidref ref="LArActiveModWall"/>
+      <physvol>
+        <volumeref ref="volLArActiveMod"/>
+        <positionref ref="volLArActiveMod_pos"/>
+        <rotationref ref="volLArActiveMod_rot"/>
+      </physvol>
+    </volume>
+    <volume name="volArgonCubeActive">
+      <materialref ref="Air"/>
+      <solidref ref="ArgonCubeActive"/>
+      <physvol>
+        <volumeref ref="volLArActiveModWall00"/>
+        <positionref ref="ArgonCubeActive_el0_0_pos"/>
+        <rotationref ref="ArgonCubeActive_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArActiveModWall10"/>
+        <positionref ref="ArgonCubeActive_el1_0_pos"/>
+        <rotationref ref="ArgonCubeActive_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArActiveModWall20"/>
+        <positionref ref="ArgonCubeActive_el2_0_pos"/>
+        <rotationref ref="ArgonCubeActive_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArActiveModWall30"/>
+        <positionref ref="ArgonCubeActive_el3_0_pos"/>
+        <rotationref ref="ArgonCubeActive_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArActiveModWall40"/>
+        <positionref ref="ArgonCubeActive_el4_0_pos"/>
+        <rotationref ref="ArgonCubeActive_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArActiveModWall50"/>
+        <positionref ref="ArgonCubeActive_el5_0_pos"/>
+        <rotationref ref="ArgonCubeActive_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArActiveModWall60"/>
+        <positionref ref="ArgonCubeActive_el6_0_pos"/>
+        <rotationref ref="ArgonCubeActive_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArActiveModWall01"/>
+        <positionref ref="ArgonCubeActive_el0_1_pos"/>
+        <rotationref ref="ArgonCubeActive_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArActiveModWall11"/>
+        <positionref ref="ArgonCubeActive_el1_1_pos"/>
+        <rotationref ref="ArgonCubeActive_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArActiveModWall21"/>
+        <positionref ref="ArgonCubeActive_el2_1_pos"/>
+        <rotationref ref="ArgonCubeActive_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArActiveModWall31"/>
+        <positionref ref="ArgonCubeActive_el3_1_pos"/>
+        <rotationref ref="ArgonCubeActive_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArActiveModWall41"/>
+        <positionref ref="ArgonCubeActive_el4_1_pos"/>
+        <rotationref ref="ArgonCubeActive_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArActiveModWall51"/>
+        <positionref ref="ArgonCubeActive_el5_1_pos"/>
+        <rotationref ref="ArgonCubeActive_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArActiveModWall61"/>
+        <positionref ref="ArgonCubeActive_el6_1_pos"/>
+        <rotationref ref="ArgonCubeActive_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArActiveModWall02"/>
+        <positionref ref="ArgonCubeActive_el0_2_pos"/>
+        <rotationref ref="ArgonCubeActive_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArActiveModWall12"/>
+        <positionref ref="ArgonCubeActive_el1_2_pos"/>
+        <rotationref ref="ArgonCubeActive_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArActiveModWall22"/>
+        <positionref ref="ArgonCubeActive_el2_2_pos"/>
+        <rotationref ref="ArgonCubeActive_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArActiveModWall32"/>
+        <positionref ref="ArgonCubeActive_el3_2_pos"/>
+        <rotationref ref="ArgonCubeActive_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArActiveModWall42"/>
+        <positionref ref="ArgonCubeActive_el4_2_pos"/>
+        <rotationref ref="ArgonCubeActive_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArActiveModWall52"/>
+        <positionref ref="ArgonCubeActive_el5_2_pos"/>
+        <rotationref ref="ArgonCubeActive_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArActiveModWall62"/>
+        <positionref ref="ArgonCubeActive_el6_2_pos"/>
+        <rotationref ref="ArgonCubeActive_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArActiveModWall03"/>
+        <positionref ref="ArgonCubeActive_el0_3_pos"/>
+        <rotationref ref="ArgonCubeActive_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArActiveModWall13"/>
+        <positionref ref="ArgonCubeActive_el1_3_pos"/>
+        <rotationref ref="ArgonCubeActive_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArActiveModWall23"/>
+        <positionref ref="ArgonCubeActive_el2_3_pos"/>
+        <rotationref ref="ArgonCubeActive_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArActiveModWall33"/>
+        <positionref ref="ArgonCubeActive_el3_3_pos"/>
+        <rotationref ref="ArgonCubeActive_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArActiveModWall43"/>
+        <positionref ref="ArgonCubeActive_el4_3_pos"/>
+        <rotationref ref="ArgonCubeActive_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArActiveModWall53"/>
+        <positionref ref="ArgonCubeActive_el5_3_pos"/>
+        <rotationref ref="ArgonCubeActive_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArActiveModWall63"/>
+        <positionref ref="ArgonCubeActive_el6_3_pos"/>
+        <rotationref ref="ArgonCubeActive_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArActiveModWall04"/>
+        <positionref ref="ArgonCubeActive_el0_4_pos"/>
+        <rotationref ref="ArgonCubeActive_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArActiveModWall14"/>
+        <positionref ref="ArgonCubeActive_el1_4_pos"/>
+        <rotationref ref="ArgonCubeActive_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArActiveModWall24"/>
+        <positionref ref="ArgonCubeActive_el2_4_pos"/>
+        <rotationref ref="ArgonCubeActive_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArActiveModWall34"/>
+        <positionref ref="ArgonCubeActive_el3_4_pos"/>
+        <rotationref ref="ArgonCubeActive_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArActiveModWall44"/>
+        <positionref ref="ArgonCubeActive_el4_4_pos"/>
+        <rotationref ref="ArgonCubeActive_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArActiveModWall54"/>
+        <positionref ref="ArgonCubeActive_el5_4_pos"/>
+        <rotationref ref="ArgonCubeActive_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArActiveModWall64"/>
+        <positionref ref="ArgonCubeActive_el6_4_pos"/>
+        <rotationref ref="ArgonCubeActive_rot1"/>
+      </physvol>
+    </volume>
+    <volume name="volLArTop1">
+      <materialref ref="LAr"/>
+      <solidref ref="LArTop1"/>
+    </volume>
+    <volume name="volLArTop2">
+      <materialref ref="GAr"/>
+      <solidref ref="LArTop2"/>
+    </volume>
+    <volume name="volLArTopWall">
+      <materialref ref="FR4"/>
+      <solidref ref="LArTopWall"/>
+      <physvol>
+        <volumeref ref="volLArTop1"/>
+        <positionref ref="LArTopWallvolLArTop10_pos"/>
+        <rotationref ref="LArTopWall_rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArTop2"/>
+        <positionref ref="LArTopWallvolLArTop20_pos"/>
+        <rotationref ref="LArTopWall_rot"/>
+      </physvol>
+    </volume>
+    <volume name="volLArTopModule">
+      <materialref ref="Air"/>
+      <solidref ref="LArTopModule"/>
+      <physvol>
+        <volumeref ref="volLArTopWall"/>
+        <positionref ref="LArTopModule_el0_0_pos"/>
+        <rotationref ref="LArTopModule_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArTopWall"/>
+        <positionref ref="LArTopModule_el1_0_pos"/>
+        <rotationref ref="LArTopModule_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArTopWall"/>
+        <positionref ref="LArTopModule_el2_0_pos"/>
+        <rotationref ref="LArTopModule_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArTopWall"/>
+        <positionref ref="LArTopModule_el3_0_pos"/>
+        <rotationref ref="LArTopModule_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArTopWall"/>
+        <positionref ref="LArTopModule_el4_0_pos"/>
+        <rotationref ref="LArTopModule_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArTopWall"/>
+        <positionref ref="LArTopModule_el5_0_pos"/>
+        <rotationref ref="LArTopModule_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArTopWall"/>
+        <positionref ref="LArTopModule_el6_0_pos"/>
+        <rotationref ref="LArTopModule_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArTopWall"/>
+        <positionref ref="LArTopModule_el0_1_pos"/>
+        <rotationref ref="LArTopModule_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArTopWall"/>
+        <positionref ref="LArTopModule_el1_1_pos"/>
+        <rotationref ref="LArTopModule_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArTopWall"/>
+        <positionref ref="LArTopModule_el2_1_pos"/>
+        <rotationref ref="LArTopModule_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArTopWall"/>
+        <positionref ref="LArTopModule_el3_1_pos"/>
+        <rotationref ref="LArTopModule_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArTopWall"/>
+        <positionref ref="LArTopModule_el4_1_pos"/>
+        <rotationref ref="LArTopModule_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArTopWall"/>
+        <positionref ref="LArTopModule_el5_1_pos"/>
+        <rotationref ref="LArTopModule_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArTopWall"/>
+        <positionref ref="LArTopModule_el6_1_pos"/>
+        <rotationref ref="LArTopModule_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArTopWall"/>
+        <positionref ref="LArTopModule_el0_2_pos"/>
+        <rotationref ref="LArTopModule_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArTopWall"/>
+        <positionref ref="LArTopModule_el1_2_pos"/>
+        <rotationref ref="LArTopModule_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArTopWall"/>
+        <positionref ref="LArTopModule_el2_2_pos"/>
+        <rotationref ref="LArTopModule_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArTopWall"/>
+        <positionref ref="LArTopModule_el3_2_pos"/>
+        <rotationref ref="LArTopModule_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArTopWall"/>
+        <positionref ref="LArTopModule_el4_2_pos"/>
+        <rotationref ref="LArTopModule_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArTopWall"/>
+        <positionref ref="LArTopModule_el5_2_pos"/>
+        <rotationref ref="LArTopModule_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArTopWall"/>
+        <positionref ref="LArTopModule_el6_2_pos"/>
+        <rotationref ref="LArTopModule_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArTopWall"/>
+        <positionref ref="LArTopModule_el0_3_pos"/>
+        <rotationref ref="LArTopModule_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArTopWall"/>
+        <positionref ref="LArTopModule_el1_3_pos"/>
+        <rotationref ref="LArTopModule_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArTopWall"/>
+        <positionref ref="LArTopModule_el2_3_pos"/>
+        <rotationref ref="LArTopModule_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArTopWall"/>
+        <positionref ref="LArTopModule_el3_3_pos"/>
+        <rotationref ref="LArTopModule_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArTopWall"/>
+        <positionref ref="LArTopModule_el4_3_pos"/>
+        <rotationref ref="LArTopModule_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArTopWall"/>
+        <positionref ref="LArTopModule_el5_3_pos"/>
+        <rotationref ref="LArTopModule_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArTopWall"/>
+        <positionref ref="LArTopModule_el6_3_pos"/>
+        <rotationref ref="LArTopModule_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArTopWall"/>
+        <positionref ref="LArTopModule_el0_4_pos"/>
+        <rotationref ref="LArTopModule_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArTopWall"/>
+        <positionref ref="LArTopModule_el1_4_pos"/>
+        <rotationref ref="LArTopModule_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArTopWall"/>
+        <positionref ref="LArTopModule_el2_4_pos"/>
+        <rotationref ref="LArTopModule_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArTopWall"/>
+        <positionref ref="LArTopModule_el3_4_pos"/>
+        <rotationref ref="LArTopModule_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArTopWall"/>
+        <positionref ref="LArTopModule_el4_4_pos"/>
+        <rotationref ref="LArTopModule_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArTopWall"/>
+        <positionref ref="LArTopModule_el5_4_pos"/>
+        <rotationref ref="LArTopModule_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArTopWall"/>
+        <positionref ref="LArTopModule_el6_4_pos"/>
+        <rotationref ref="LArTopModule_rot1"/>
+      </physvol>
+    </volume>
+    <volume name="volArgonCube">
+      <materialref ref="Air"/>
+      <solidref ref="ArgonCube"/>
+      <physvol>
+        <volumeref ref="volLArBotModule"/>
+        <positionref ref="ArgonCubevolLArBotModule0_pos"/>
+        <rotationref ref="ArgonCube_rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volArgonCubeActive"/>
+        <positionref ref="ArgonCubevolArgonCubeActive0_pos"/>
+        <rotationref ref="ArgonCube_rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArTopModule"/>
+        <positionref ref="ArgonCubevolLArTopModule0_pos"/>
+        <rotationref ref="ArgonCube_rot"/>
+      </physvol>
+    </volume>
+    <volume name="volArgonCubeServiceR">
+      <materialref ref="Air"/>
+      <solidref ref="ArgonCubeServiceR"/>
+      <physvol>
+        <volumeref ref="volLArService"/>
+        <positionref ref="ArgonCubeServiceRvolLArService0_pos"/>
+        <rotationref ref="ArgonCubeServiceR_rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volAirService"/>
+        <positionref ref="ArgonCubeServiceRvolAirService0_pos"/>
+        <rotationref ref="ArgonCubeServiceR_rot"/>
+      </physvol>
+    </volume>
+    <volume name="volArgonCubeService">
+      <materialref ref="Air"/>
+      <solidref ref="ArgonCubeService"/>
+      <physvol>
+        <volumeref ref="volArgonCubeServiceL"/>
+        <positionref ref="ArgonCubeServicevolArgonCubeServiceL0_pos"/>
+        <rotationref ref="ArgonCubeService_rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volArgonCube"/>
+        <positionref ref="ArgonCubeServicevolArgonCube0_pos"/>
+        <rotationref ref="ArgonCubeService_rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volArgonCubeServiceR"/>
+        <positionref ref="ArgonCubeServicevolArgonCubeServiceR0_pos"/>
+        <rotationref ref="ArgonCubeService_rot"/>
+      </physvol>
+    </volume>
+    <volume name="volSSMembrane">
+      <materialref ref="SSteel304"/>
+      <solidref ref="SSMembrane"/>
+      <physvol>
+        <volumeref ref="volArgonCubeService"/>
+        <positionref ref="SSMembranevolArgonCubeService_pos"/>
+        <rotationref ref="SSMembrane_rot"/>
+      </physvol>
+    </volume>
+    <volume name="volFireproofBoard">
+      <materialref ref="CalciumSilicate"/>
+      <solidref ref="FireproofBoard"/>
+      <physvol>
+        <volumeref ref="volSSMembrane"/>
+        <positionref ref="FireproofBoardvolSSMembrane_pos"/>
+        <rotationref ref="FireproofBoard_rot"/>
+      </physvol>
+    </volume>
+    <volume name="volGREBoard1">
+      <materialref ref="FR4"/>
+      <solidref ref="GREBoard1"/>
+      <physvol>
+        <volumeref ref="volFireproofBoard"/>
+        <positionref ref="GREBoard1volFireproofBoard_pos"/>
+        <rotationref ref="GREBoard1_rot"/>
+      </physvol>
+    </volume>
+    <volume name="volInsulationBoard1">
+      <materialref ref="Polyurethane"/>
+      <solidref ref="InsulationBoard1"/>
+      <physvol>
+        <volumeref ref="volGREBoard1"/>
+        <positionref ref="InsulationBoard1volGREBoard1_pos"/>
+        <rotationref ref="InsulationBoard1_rot"/>
+      </physvol>
+    </volume>
+    <volume name="volGREBoard2">
+      <materialref ref="FR4"/>
+      <solidref ref="GREBoard2"/>
+      <physvol>
+        <volumeref ref="volInsulationBoard1"/>
+        <positionref ref="GREBoard2volInsulationBoard1_pos"/>
+        <rotationref ref="GREBoard2_rot"/>
+      </physvol>
+    </volume>
+    <volume name="volInsulationBoard2">
+      <materialref ref="Polyurethane"/>
+      <solidref ref="InsulationBoard2"/>
+      <physvol>
+        <volumeref ref="volGREBoard2"/>
+        <positionref ref="InsulationBoard2volGREBoard2_pos"/>
+        <rotationref ref="InsulationBoard2_rot"/>
+      </physvol>
+    </volume>
+    <volume name="volMoistureBarrier">
+      <materialref ref="CarbonSteel"/>
+      <solidref ref="MoistureBarrier"/>
+      <physvol>
+        <volumeref ref="volInsulationBoard2"/>
+        <positionref ref="MoistureBarriervolInsulationBoard2_pos"/>
+        <rotationref ref="MoistureBarrier_rot"/>
+      </physvol>
+    </volume>
+    <volume name="volG10Window">
+      <materialref ref="FR4"/>
+      <solidref ref="G10Window"/>
+    </volume>
+    <volume name="volAirWindow">
+      <materialref ref="Air"/>
+      <solidref ref="AirWindow"/>
+    </volume>
+    <volume name="volG10AirWindow">
+      <materialref ref="Air"/>
+      <solidref ref="G10AirWindow"/>
+      <physvol>
+        <volumeref ref="volG10Window"/>
+        <positionref ref="G10AirWindowvolG10Window0_pos"/>
+        <rotationref ref="G10AirWindow_rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volAirWindow"/>
+        <positionref ref="G10AirWindowvolAirWindow0_pos"/>
+        <rotationref ref="G10AirWindow_rot"/>
+      </physvol>
+    </volume>
+    <volume name="volReinforcedConcrete">
+      <materialref ref="ReifConcrete"/>
+      <solidref ref="ReinforcedConcrete"/>
+      <physvol>
+        <volumeref ref="volMoistureBarrier"/>
+        <positionref ref="ReinforcedConcretevolMoistureBarrier_pos"/>
+        <rotationref ref="ReinforcedConcrete_rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volG10AirWindow"/>
+        <positionref ref="volG10AirWindow_pos"/>
+        <rotationref ref="identity"/>
+      </physvol>
+    </volume>
+    <volume name="volArgonCubeCryostat">
+      <materialref ref="Air"/>
+      <solidref ref="ArgonCubeCryostat"/>
+      <physvol>
+        <volumeref ref="volReinforcedConcrete"/>
+        <positionref ref="volReinforcedConcrete_pos"/>
+        <rotationref ref="identity"/>
+      </physvol>
+    </volume>
+    <volume name="volCylinder">
+      <materialref ref="Steel"/>
+      <solidref ref="Cylinder"/>
+    </volume>
+    <volume name="volCylinderLBox">
+      <materialref ref="Air"/>
+      <solidref ref="CylinderLBox"/>
+      <physvol>
+        <volumeref ref="volCylinder"/>
+        <positionref ref="CylinderLBoxvolCylinder0_pos"/>
+        <rotationref ref="CylinderLBox_rot"/>
+      </physvol>
+    </volume>
+    <volume name="volCylinderT">
+      <materialref ref="Steel"/>
+      <solidref ref="CylinderT"/>
+    </volume>
+    <volume name="volCylinderTBox">
+      <materialref ref="Air"/>
+      <solidref ref="CylinderTBox"/>
+      <physvol>
+        <volumeref ref="volCylinderT"/>
+        <positionref ref="CylinderTBoxvolCylinderT0_pos"/>
+        <rotationref ref="CylinderTBox_rot"/>
+      </physvol>
+    </volume>
+    <volume name="volCylinderRBox">
+      <materialref ref="Air"/>
+      <solidref ref="CylinderRBox"/>
+      <physvol>
+        <volumeref ref="volCylinder"/>
+        <positionref ref="CylinderRBoxvolCylinder0_pos"/>
+        <rotationref ref="CylinderRBox_rot"/>
+      </physvol>
+    </volume>
+    <volume name="volLArTop3">
+      <materialref ref="Air"/>
+      <solidref ref="LArTop3"/>
+      <physvol>
+        <volumeref ref="volCylinderLBox"/>
+        <positionref ref="LArTop3volCylinderLBox0_pos"/>
+        <rotationref ref="LArTop3_rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volCylinderTBox"/>
+        <positionref ref="LArTop3volCylinderTBox0_pos"/>
+        <rotationref ref="LArTop3_rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volCylinderRBox"/>
+        <positionref ref="LArTop3volCylinderRBox0_pos"/>
+        <rotationref ref="LArTop3_rot"/>
+      </physvol>
+    </volume>
+    <volume name="volLArTopExtraModule">
+      <materialref ref="Air"/>
+      <solidref ref="LArTopExtraModule"/>
+      <physvol>
+        <volumeref ref="volLArTop3"/>
+        <positionref ref="LArTopExtraModule_el0_0_pos"/>
+        <rotationref ref="LArTopExtraModule_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArTop3"/>
+        <positionref ref="LArTopExtraModule_el1_0_pos"/>
+        <rotationref ref="LArTopExtraModule_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArTop3"/>
+        <positionref ref="LArTopExtraModule_el2_0_pos"/>
+        <rotationref ref="LArTopExtraModule_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArTop3"/>
+        <positionref ref="LArTopExtraModule_el3_0_pos"/>
+        <rotationref ref="LArTopExtraModule_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArTop3"/>
+        <positionref ref="LArTopExtraModule_el4_0_pos"/>
+        <rotationref ref="LArTopExtraModule_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArTop3"/>
+        <positionref ref="LArTopExtraModule_el5_0_pos"/>
+        <rotationref ref="LArTopExtraModule_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArTop3"/>
+        <positionref ref="LArTopExtraModule_el6_0_pos"/>
+        <rotationref ref="LArTopExtraModule_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArTop3"/>
+        <positionref ref="LArTopExtraModule_el0_1_pos"/>
+        <rotationref ref="LArTopExtraModule_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArTop3"/>
+        <positionref ref="LArTopExtraModule_el1_1_pos"/>
+        <rotationref ref="LArTopExtraModule_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArTop3"/>
+        <positionref ref="LArTopExtraModule_el2_1_pos"/>
+        <rotationref ref="LArTopExtraModule_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArTop3"/>
+        <positionref ref="LArTopExtraModule_el3_1_pos"/>
+        <rotationref ref="LArTopExtraModule_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArTop3"/>
+        <positionref ref="LArTopExtraModule_el4_1_pos"/>
+        <rotationref ref="LArTopExtraModule_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArTop3"/>
+        <positionref ref="LArTopExtraModule_el5_1_pos"/>
+        <rotationref ref="LArTopExtraModule_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArTop3"/>
+        <positionref ref="LArTopExtraModule_el6_1_pos"/>
+        <rotationref ref="LArTopExtraModule_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArTop3"/>
+        <positionref ref="LArTopExtraModule_el0_2_pos"/>
+        <rotationref ref="LArTopExtraModule_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArTop3"/>
+        <positionref ref="LArTopExtraModule_el1_2_pos"/>
+        <rotationref ref="LArTopExtraModule_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArTop3"/>
+        <positionref ref="LArTopExtraModule_el2_2_pos"/>
+        <rotationref ref="LArTopExtraModule_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArTop3"/>
+        <positionref ref="LArTopExtraModule_el3_2_pos"/>
+        <rotationref ref="LArTopExtraModule_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArTop3"/>
+        <positionref ref="LArTopExtraModule_el4_2_pos"/>
+        <rotationref ref="LArTopExtraModule_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArTop3"/>
+        <positionref ref="LArTopExtraModule_el5_2_pos"/>
+        <rotationref ref="LArTopExtraModule_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArTop3"/>
+        <positionref ref="LArTopExtraModule_el6_2_pos"/>
+        <rotationref ref="LArTopExtraModule_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArTop3"/>
+        <positionref ref="LArTopExtraModule_el0_3_pos"/>
+        <rotationref ref="LArTopExtraModule_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArTop3"/>
+        <positionref ref="LArTopExtraModule_el1_3_pos"/>
+        <rotationref ref="LArTopExtraModule_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArTop3"/>
+        <positionref ref="LArTopExtraModule_el2_3_pos"/>
+        <rotationref ref="LArTopExtraModule_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArTop3"/>
+        <positionref ref="LArTopExtraModule_el3_3_pos"/>
+        <rotationref ref="LArTopExtraModule_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArTop3"/>
+        <positionref ref="LArTopExtraModule_el4_3_pos"/>
+        <rotationref ref="LArTopExtraModule_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArTop3"/>
+        <positionref ref="LArTopExtraModule_el5_3_pos"/>
+        <rotationref ref="LArTopExtraModule_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArTop3"/>
+        <positionref ref="LArTopExtraModule_el6_3_pos"/>
+        <rotationref ref="LArTopExtraModule_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArTop3"/>
+        <positionref ref="LArTopExtraModule_el0_4_pos"/>
+        <rotationref ref="LArTopExtraModule_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArTop3"/>
+        <positionref ref="LArTopExtraModule_el1_4_pos"/>
+        <rotationref ref="LArTopExtraModule_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArTop3"/>
+        <positionref ref="LArTopExtraModule_el2_4_pos"/>
+        <rotationref ref="LArTopExtraModule_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArTop3"/>
+        <positionref ref="LArTopExtraModule_el3_4_pos"/>
+        <rotationref ref="LArTopExtraModule_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArTop3"/>
+        <positionref ref="LArTopExtraModule_el4_4_pos"/>
+        <rotationref ref="LArTopExtraModule_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArTop3"/>
+        <positionref ref="LArTopExtraModule_el5_4_pos"/>
+        <rotationref ref="LArTopExtraModule_rot1"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volLArTop3"/>
+        <positionref ref="LArTopExtraModule_el6_4_pos"/>
+        <rotationref ref="LArTopExtraModule_rot1"/>
+      </physvol>
+    </volume>
+    <volume name="volArgonCubeTopExtra">
+      <materialref ref="Air"/>
+      <solidref ref="ArgonCubeTopExtra"/>
+      <physvol>
+        <volumeref ref="volLArTopExtraModule"/>
+        <positionref ref="ArgonCubeTopExtravolLArTopExtraModule_pos"/>
+        <rotationref ref="ArgonCubeTopExtra_rot"/>
+      </physvol>
+    </volume>
+    <volume name="volArgonCubeDetector">
+      <materialref ref="Air"/>
+      <solidref ref="ArgonCubeDetector"/>
+      <physvol>
+        <volumeref ref="volArgonCubeCryostat"/>
+        <positionref ref="ArgonCubeDetectorvolArgonCubeCryostat0_pos"/>
+        <rotationref ref="ArgonCubeDetector_rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volArgonCubeTopExtra"/>
+        <positionref ref="ArgonCubeDetectorvolArgonCubeTopExtra0_pos"/>
+        <rotationref ref="ArgonCubeDetector_rot"/>
+      </physvol>
+    </volume>
+    <volume name="elevatorBlock_lv">
+      <materialref ref="Steel"/>
+      <solidref ref="elevatorBlockShape"/>
+    </volume>
+    <volume name="craneRail1_lv">
+      <materialref ref="Steel"/>
+      <solidref ref="crainRail1Shape"/>
+    </volume>
+    <volume name="craneRail2_lv">
+      <materialref ref="Steel"/>
+      <solidref ref="crainRail2Shape"/>
+    </volume>
+    <volume name="egressHallway_lv">
+      <materialref ref="Steel"/>
+      <solidref ref="egressHallwayShape"/>
+    </volume>
+    <volume name="cryoTube1_lv">
+      <materialref ref="Steel"/>
+      <solidref ref="cryoTube1"/>
+    </volume>
+    <volume name="cryoTube2_lv">
+      <materialref ref="Steel"/>
+      <solidref ref="cryoTube2"/>
+    </volume>
+    <volume name="cryoTube3_lv">
+      <materialref ref="Steel"/>
+      <solidref ref="cryoTube3"/>
+    </volume>
+    <volume name="cryoTube4_lv">
+      <materialref ref="Steel"/>
+      <solidref ref="cryoTube4"/>
+    </volume>
+    <volume name="cryoTube5_lv">
+      <materialref ref="Steel"/>
+      <solidref ref="cryoTube5"/>
+    </volume>
+    <volume name="volfullCryoTubeBox">
+      <materialref ref="Air"/>
+      <solidref ref="fullCryoTubeBox"/>
+      <physvol>
+        <volumeref ref="cryoTube1_lv"/>
+        <positionref ref="cryoTube1Position"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="cryoTube2_lv"/>
+        <positionref ref="cryoTube2Position"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="cryoTube3_lv"/>
+        <positionref ref="cryoTube3Position"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="cryoTube4_lv"/>
+        <positionref ref="cryoTube4Position"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="cryoTube5_lv"/>
+        <positionref ref="cryoTube5Position"/>
+        <rotationref ref="identity"/>
+      </physvol>
+    </volume>
+    <volume name="volDetEnclosure">
+      <materialref ref="Air"/>
+      <solidref ref="NDHallAirVolShape"/>
+      <physvol>
+        <volumeref ref="volArgonCubeDetector"/>
+        <positionref ref="volArgonCubeDetector_pos"/>
+        <rotationref ref="volArgonCubeDetector_rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="elevatorBlock_lv"/>
+        <positionref ref="elevatorBlock_lv_pos"/>
+        <rotationref ref="elevatorBlock_lv_rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="craneRail1_lv"/>
+        <positionref ref="craneRail1_lv_pos"/>
+        <rotationref ref="craneRail1_lv_rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="craneRail2_lv"/>
+        <positionref ref="craneRail2_lv_pos"/>
+        <rotationref ref="craneRail2_lv_rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="egressHallway_lv"/>
+        <positionref ref="egressHallway_lv_pos"/>
+        <rotationref ref="egressHallway_lv_rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volfullCryoTubeBox"/>
+        <positionref ref="volfullCryoTubeBox_pos"/>
+        <rotationref ref="volfullCryoTubeBox_rot"/>
+      </physvol>
+    </volume>
+    <volume name="rockBox_lv">
+      <materialref ref="Rock"/>
+      <solidref ref="rockBox"/>
+      <physvol>
+        <volumeref ref="volDetEnclosure"/>
+        <positionref ref="volDetEnclosure_pos"/>
+        <rotationref ref="volDetEnclosure_rot"/>
+      </physvol>
+    </volume>
+    <volume name="volWorld">
+      <materialref ref="NoGas"/>
+      <solidref ref="World"/>
+      <physvol>
+        <volumeref ref="rockBox_lv"/>
+        <positionref ref="rockBox_lv_pos"/>
+        <rotationref ref="rockBox_lv_rot"/>
+      </physvol>
+    </volume>
+  </structure>
+  <setup name="Default" version="0">
+    <world ref="volWorld"/>
+  </setup>
+</gdml>
