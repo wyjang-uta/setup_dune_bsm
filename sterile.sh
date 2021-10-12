@@ -1,8 +1,6 @@
-# LED/Sterile/Nu_tau analysis requirement summary
+# LED/Sterile neutrino analysis requirement summary
 # (1) GSL v2.5
 # (2) GLoBES v3.2.18
-# (3) edepsim 3.1.0
-# (4) GiBUU 2019
 
 echo "Enabling Sterile Neutrino environment ..."
 echo "Initialize ..."
