@@ -1,0 +1,220 @@
+%!GLoBES
+$version="3.0.0"
+
+
+nuflux(#lbne_source)<
+	@flux_file = "g4lbne_v3r2p4b_FHC_FD_globes_flux.txt"
+	@time = 5.0
+	@norm = 1.3872e18  
+>
+
+nuflux(#lbnebar_source)<
+	@flux_file = "g4lbne_v3r2p4b_RHC_FD_globes_flux.txt"
+	@time = 5.0
+	@norm = 1.3872e18  
+>
+
+/*
+$profiletype = 3
+$densitytab = {2.8,3.67,2.8}
+$lengthtab = {593.706,112.5880,593.706}
+*/
+
+$profiletype = 3
+$densitytab = {2.95}
+$lengthtab = {1300}
+
+$target_mass = 30.0
+
+
+cross(#CC)<
+	@cross_file = "XCC.dat"
+>
+
+cross(#NC)<
+	@cross_file = "XNC.dat"    /* Neutral current */
+>
+
+cross(#QE)<
+	@cross_file = "XQE.dat"    /* quasi-elastic current */
+>
+
+
+
+$emin =  0.375
+$emax = 10.125
+$bins =  39
+/*
+$binsize= {0.125, 0.125, 0.125, 0.125, 
+0.125, 0.125, 0.125, 0.125, 0.125, 0.125, 0.125, 0.125, 
+0.125, 0.125, 0.125, 0.125, 0.125, 0.125, 0.125, 0.125, 
+0.125, 0.125, 0.125, 0.125, 0.125, 0.125, 0.125, 0.125, 
+0.125, 0.125, 0.125, 0.125, 0.125, 0.125, 0.125, 0.125, 
+0.125, 0.125, 0.125, 0.125, 0.125, 0.125, 0.125, 0.125, 
+0.125, 0.125, 0.125, 0.125, 0.125, 0.125, 0.125, 0.125, 
+0.125, 0.125, 0.125, 0.125, 0.125, 0.125, 0.125, 0.125, 
+2}
+*/
+
+
+$sampling_min =                 0.1
+$sampling_max =                 20.1
+$sampling_points = 200
+/*
+$sampling_stepsize= {0.125, 0.125, 0.125, 0.125, 
+0.125, 0.125, 0.125, 0.125, 0.125, 0.125, 0.125, 0.125, 
+0.125, 0.125, 0.125, 0.125, 0.125, 0.125, 0.125, 0.125, 
+0.125, 0.125, 0.125, 0.125, 0.125, 0.125, 0.125, 0.125, 
+0.125, 0.125, 0.125, 0.125, 0.125, 0.125, 0.125, 0.125, 
+0.125, 0.125, 0.125, 0.125, 0.125, 0.125, 0.125, 0.125, 
+0.125, 0.125, 0.125, 0.125, 0.125, 0.125, 0.125, 0.125, 
+0.125, 0.125, 0.125, 0.125, 0.125, 0.125, 0.125, 0.125, 
+2, 2, 2, 2, 2, 
+2, 2, 2, 2, 2, 
+2, 2, 2, 2, 2, 
+2, 2, 2, 2, 2, 
+2, 2, 2, 2, 2, 2} 
+*/
+
+/* Technical information */
+$filter_state = 0
+$filter_value = 1000000
+
+energy(#ERES_mu)<                  /* Energy resolution function is Gaussian, with */
+	@type = 1               /* sigma = sigma_e[0] * E  +  sigma_e[1] * sqrt(E) + sigma_e[3] */
+	@sigma_e = {0.3,0.0,0.0}
+>
+
+energy(#ERES_e)<                  /* Energy resolution function is Gaussian, with */
+	@type = 1               /* sigma = sigma_e[0] * E  +  sigma_e[1] * sqrt(E) + sigma_e[3] */
+	@sigma_e = {0.02,0.15,0.0}
+>
+
+/*
+energy(#ERES_NC_nu)<                  
+	@type = 1               
+	@sigma_e = {0.0,0.20,0.0}
+>
+
+energy(#ERES_NC_anu)<                  
+	@type = 1               
+	@sigma_e = {0.0,0.20,0.0}
+>
+
+
+energy(#ERES_NC_nu)< 
+	@energy=include "nc_smear_nu_ereco.dat"
+>
+
+energy(#ERES_NC_anu)< 
+	@energy=include "nc_smear_anu_ereco.dat"
+>
+*/
+
+channel(#v_m_TO_v_e)<
+	@channel = #lbne_source:	+:	mu:	e:	#CC:	#ERES_e
+>
+
+channel(#bar_v_m_TO_bar_v_e)<
+	@channel = #lbnebar_source:	-:	mu:	e:	#CC:	#ERES_e
+>
+
+channel(#v_m_TO_v_m)<
+	@channel = #lbne_source:	+:	mu:	mu:	#CC:	#ERES_mu
+>
+
+channel(#bar_v_m_TO_bar_v_m)<
+	@channel = #lbnebar_source:	-:	mu:	mu:	#CC:	#ERES_mu
+>
+
+channel(#v_e_TO_v_e)<
+	@channel = #lbne_source:	+:	e:	e:	#CC:	#ERES_e
+>
+
+channel(#bar_v_e_TO_bar_v_e)<
+	@channel = #lbnebar_source:	-:	e:	 e:	#CC:	#ERES_e
+>
+
+channel(#v_x_TO_v_x)<
+	@channel = 	#lbne_source:	+:	NOSC_m:	NOSC_m:	#NC:    #ERES_mu
+>
+
+channel(#bar_v_x_TO_bar_v_x)<
+	@channel = 	#lbnebar_source:	-:	NOSC_m:	NOSC_m:	#NC:    #ERES_mu
+>
+
+channel(#v_m_TO_v_t)<
+	@channel = 	#lbne_source:	+:	mu:	tau:	#CC:    #ERES_mu
+>
+
+channel(#bar_v_m_TO_bar_v_t)<
+	@channel = 	#lbnebar_source:	-:	mu:	tau:	#CC:    #ERES_mu
+>
+
+channel(#v_m_TO_v_m_wrongsign)<
+	@channel = 	#lbnebar_source:	+:	mu:	mu:	#CC:    #ERES_mu
+>
+
+channel(#v_e_TO_v_e_wrongsign)<
+	@channel = 	#lbnebar_source:	+:	e:	e:	#CC:    #ERES_e
+>
+
+channel(#v_m_TO_v_t_wrongsign)<
+	@channel = 	#lbnebar_source:	+:	mu:	tau:	#CC:    #ERES_mu
+>
+
+channel(#v_x_TO_v_x_wrongsign)<
+	@channel = 	#lbnebar_source:	+:	NOSC_mu:	NOSC_mu:	#CC:    #ERES_mu
+>
+
+channel(#v_m_TO_v_e_wrongsign)<
+	@channel = 	#lbnebar_source:	+:	mu:	e:	#CC:    #ERES_e
+>
+
+channel(#bar_v_m_TO_bar_v_e_wrongsign)<
+	@channel = 	#lbne_source:	-:	mu:	e:	#CC:    #ERES_e
+>
+
+
+rule(#RULE1)<
+	@signal = 0.85@#v_m_TO_v_e:0.75*0.85@#bar_v_m_TO_bar_v_e_wrongsign
+	@signalerror = 0.05 : 0.02
+	@background = 0.579*0.8@#v_e_TO_v_e : 0.796*0.01@#v_m_TO_v_m : 0.632*0.01@#v_x_TO_v_x
+	@backgrounderror = 0.10 : 0.02
+	@sys_on_function = "chiSpectrumCalib"  
+	@sys_off_function = "chiNoSysSpectrum"
+	
+>
+
+
+
+rule(#RULE2)<
+	@signal = 0.85@#v_m_TO_v_m
+	@signalerror = 0.05 : 0.02
+	@background = 0.005@#v_x_TO_v_x 
+	@backgrounderror = 0.45 : 0.02
+	@sys_on_function = "chiSpectrumCalib"  
+	@sys_off_function = "chiNoSysSpectrum"
+	
+>
+
+rule(#RULE3)<
+	@signal = 0.75*0.8@#bar_v_m_TO_bar_v_e : 0.75*0.8@#v_m_TO_v_e_wrongsign
+	@signalerror = 0.05 : 0.02
+	@background = 0.335*0.8@#bar_v_e_TO_bar_v_e : 0.335*0.8@#v_e_TO_v_e_wrongsign : 0.050*0.1@#bar_v_m_TO_bar_v_m : 0.050*0.1@#v_m_TO_v_m_wrongsign : 0.058*0.1@#bar_v_x_TO_bar_v_x : 0.058*0.1@#v_x_TO_v_x_wrongsign
+   	@backgrounderror = 0.10 : 0.02
+	@sys_on_function = "chiSpectrumCalib"  
+	@sys_off_function = "chiNoSysSpectrum"
+>	
+
+rule(#RULE4)<
+	@signal = 0.85@#bar_v_m_TO_bar_v_m : 0.85@#v_m_TO_v_m_wrongsign
+	@signalerror = 0.05 : 0.02
+	@background = 0.005@#bar_v_x_TO_bar_v_x : 0.005@#v_x_TO_v_x_wrongsign
+	@backgrounderror = 0.45 : 0.02
+	@sys_on_function = "chiSpectrumCalib"  
+	@sys_off_function = "chiNoSysSpectrum"
+	
+>
+
+
