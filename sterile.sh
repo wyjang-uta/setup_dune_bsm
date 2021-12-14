@@ -12,7 +12,7 @@ unset GLOBESBIN
 unset GLOBESLIB
 
 echo "Setting up GSL2.5 ..."
-setup gsl v2_5 -q prof
+#setup gsl v2_5 -q prof
 echo "Setting up GSL2.5 ... DONE"
 
 echo "Setting up GLoBES 3.0.11 ..."

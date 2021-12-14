@@ -2,10 +2,25 @@
 set -o allexport
 echo "setup_dune_bsm v0.1"
 
+# check whether proper argument is given by user or not.
 if [ "$1" == "" ]
 then
   echo "[ERROR] Specify which environment you want to configure"
+  echo "List of available commands:"
+  echo ". setup_dune_bsm ldm"
+  echo ". setup_dune_bsm sterile"
+  echo ". setup_dune_bsm cafana"
+  echo ". setup_dune_bsm hnl"
+  echo ". setup_dune_bsm nsi"
+  echo "script terminated by error"
   exit 1
+fi
+
+# check whether setup_dune.sh is configured.
+if [ "$SYSTEMATICSTOOLS_LIB" == "" ]
+then
+  export MYENV="dune"
+  source /cvmfs/dune.opensciencegrid.org/products/dune/setup_dune.sh
 fi
 
 if [ "$1" == "ldm" ]
